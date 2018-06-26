@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (4.6.0)
+  - DKImagePickerController (3.8.1):
+    - DKImagePickerController/Camera (= 3.8.1)
+    - DKImagePickerController/ImageManager (= 3.8.1)
+  - DKImagePickerController/Camera (3.8.1)
+  - DKImagePickerController/ImageManager (3.8.1)
+  - GoogleMaps (2.5.0):
+    - GoogleMaps/Maps (= 2.5.0)
+  - GoogleMaps/Base (2.5.0)
+  - GoogleMaps/Maps (2.5.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.5.0):
+    - GoogleMaps/Base (= 2.5.0)
+  - IQKeyboardManagerSwift (5.0.7)
+  - NVActivityIndicatorView (4.1.1):
+    - NVActivityIndicatorView/Presenter (= 4.1.1)
+  - NVActivityIndicatorView/Presenter (4.1.1)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - SKToast (0.1.0)
+  - SwiftSpinner (1.5.0)
+  - SWRevealViewController (2.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - DKImagePickerController
+  - GoogleMaps
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView (~> 4.1)
+  - SDWebImage
+  - SKToast
+  - SKToast (~> 0.1)
+  - SwiftSpinner
+  - SWRevealViewController
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  DKImagePickerController: 51ad6ee2ba05414bb741db54a72cd7f4fb178e34
+  GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  GooglePlaces: dd70d9d71ea1c7944846afe67de3712c99b30a77
+  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
+  NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  SKToast: f3c0b041c69db7e826f41d62dbf6df5f4cba3f21
+  SwiftSpinner: 4c058c7a1d6b444dd2e1d70988ead40783097133
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+
+PODFILE CHECKSUM: 1e6bf3d26ed2b2322164e8220a2c8c0ca07c9c65
+
+COCOAPODS: 1.4.0
