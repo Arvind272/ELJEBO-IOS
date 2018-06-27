@@ -162,7 +162,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72H-Y6-EEH">
-                                        <rect key="frame" x="101.5" y="12" width="172" height="20.5"/>
+                                        <rect key="frame" x="95" y="10.5" width="185.5" height="23.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -445,7 +445,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZQ-oX-RPJ">
-                                        <rect key="frame" x="111.5" y="12.5" width="153" height="20.5"/>
+                                        <rect key="frame" x="106" y="11" width="164" height="23.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -462,7 +462,7 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="1zT-x8-kMb">
-                                <rect key="frame" x="20" y="233.5" width="335" height="96"/>
+                                <rect key="frame" x="20" y="238" width="335" height="96"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F4I-dw-0i7" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="45"/>
@@ -561,7 +561,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLM-Tf-7Zs" customClass="SetCornerButton" customModule="EIjebo" customModuleProvider="target">
-                                <rect key="frame" x="20" y="354.5" width="335" height="45"/>
+                                <rect key="frame" x="20" y="359" width="335" height="45"/>
                                 <color key="backgroundColor" red="0.9713711143" green="0.1430932879" blue="0.091485358769999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="VaA-e4-c0R"/>
@@ -580,7 +580,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsa-4k-gEy">
-                                <rect key="frame" x="77" y="164" width="222" height="29.5"/>
+                                <rect key="frame" x="69.5" y="164" width="237.5" height="34"/>
                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -740,7 +740,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQ0-90-Ekm">
-                                        <rect key="frame" x="162.5" y="12" width="51" height="20.5"/>
+                                        <rect key="frame" x="160" y="10.5" width="56.5" height="23.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -812,7 +812,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BNt-ga-H1U">
-                                                <rect key="frame" x="55" y="31.5" width="146.5" height="17.5"/>
+                                                <rect key="frame" x="55" y="30.5" width="157.5" height="20"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -849,7 +849,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqg-PF-53c">
-                                                <rect key="frame" x="55" y="31.5" width="130.5" height="17.5"/>
+                                                <rect key="frame" x="55" y="30.5" width="139.5" height="20"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -885,7 +885,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Services" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qaj-CH-VL6">
-                                                <rect key="frame" x="55" y="32" width="57" height="17.5"/>
+                                                <rect key="frame" x="55" y="31" width="65" height="20"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -967,7 +967,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jack Thomas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUl-kF-73T">
-                                        <rect key="frame" x="134" y="12.5" width="107.5" height="20.5"/>
+                                        <rect key="frame" x="128" y="11" width="120" height="23.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -1008,12 +1008,12 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jack Thomas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XR3-h3-5f1">
-                                                                <rect key="frame" x="110" y="15" width="257" height="15.5"/>
+                                                                <rect key="frame" x="110" y="15" width="257" height="17.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVg-oO-3sH">
-                                                                <rect key="frame" x="110" y="38" width="257" height="28.5"/>
+                                                                <rect key="frame" x="110" y="40" width="257" height="33"/>
                                                                 <string key="text">#123 Lorem ipsum, Amet 
 Lorem Ipsum, USA </string>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
@@ -1021,13 +1021,13 @@ Lorem Ipsum, USA </string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="172201" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zl0-gw-33X">
-                                                                <rect key="frame" x="110" y="68.5" width="257" height="14.5"/>
+                                                                <rect key="frame" x="110" y="75" width="257" height="16.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                                 <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Service Time" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSi-8e-DkN">
-                                                                <rect key="frame" x="15" y="125" width="80.5" height="15.5"/>
+                                                                <rect key="frame" x="15" y="125" width="80.5" height="31"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="81" id="L6U-CK-Llp"/>
                                                                 </constraints>
@@ -1036,18 +1036,18 @@ Lorem Ipsum, USA </string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:00am  12:00pm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2R-RS-Sct">
-                                                                <rect key="frame" x="110.5" y="125" width="256.5" height="15.5"/>
+                                                                <rect key="frame" x="110.5" y="132" width="256.5" height="17.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msc-m7-WKG">
-                                                                <rect key="frame" x="15" y="148.5" width="53.5" height="15.5"/>
+                                                                <rect key="frame" x="15" y="164" width="57" height="0.0"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                                                 <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 mins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdU-q7-NhU">
-                                                                <rect key="frame" x="110.5" y="149" width="50" height="15.5"/>
+                                                                <rect key="frame" x="110.5" y="156" width="53" height="17.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -1163,7 +1163,7 @@ Lorem Ipsum, USA </string>
                                                                                 </connections>
                                                                             </button>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zg-Yd-FQ1">
-                                                                                <rect key="frame" x="35" y="51" width="46.5" height="12.5"/>
+                                                                                <rect key="frame" x="34" y="51" width="49" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="12"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -1191,7 +1191,7 @@ Lorem Ipsum, USA </string>
                                                                                 </connections>
                                                                             </button>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Call" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoA-5J-kmb">
-                                                                                <rect key="frame" x="34.5" y="51" width="19" height="12.5"/>
+                                                                                <rect key="frame" x="34" y="51" width="20.5" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="12"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -1219,7 +1219,7 @@ Lorem Ipsum, USA </string>
                                                                                 </connections>
                                                                             </button>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Chat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncp-4L-qg9">
-                                                                                <rect key="frame" x="1" y="51" width="54.5" height="12.5"/>
+                                                                                <rect key="frame" x="-1.5" y="51" width="59.5" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="12"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -1415,7 +1415,7 @@ Lorem Ipsum, USA </string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check In Timer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fsx-Pw-lRV">
-                                        <rect key="frame" x="127.5" y="12.5" width="121" height="20.5"/>
+                                        <rect key="frame" x="120.5" y="11" width="135.5" height="23.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -1438,10 +1438,10 @@ Lorem Ipsum, USA </string>
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LR4-09-6rF">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="364.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="388"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TEl-2u-mMA">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="179"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="200.5"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_pic_home" translatesAutoresizingMaskIntoConstraints="NO" id="cHX-nw-XRa" customClass="SetCornerImageView" customModule="EIjebo" customModuleProvider="target">
                                                                 <rect key="frame" x="15" y="15" width="80" height="80"/>
@@ -1456,12 +1456,12 @@ Lorem Ipsum, USA </string>
                                                                 </userDefinedRuntimeAttributes>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jack Thomas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGe-88-dRw">
-                                                                <rect key="frame" x="110" y="15" width="257" height="15.5"/>
+                                                                <rect key="frame" x="110" y="15" width="257" height="17.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwf-cP-JYo">
-                                                                <rect key="frame" x="110" y="38" width="257" height="28.5"/>
+                                                                <rect key="frame" x="110" y="40" width="257" height="33"/>
                                                                 <string key="text">#123 Lorem ipsum, Amet 
 Lorem Ipsum, USA </string>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
@@ -1469,13 +1469,13 @@ Lorem Ipsum, USA </string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="172201" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hfx-s1-fGf">
-                                                                <rect key="frame" x="110" y="74.5" width="257" height="14.5"/>
+                                                                <rect key="frame" x="110" y="81" width="257" height="16.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                                 <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service Time" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PT4-by-D5p">
-                                                                <rect key="frame" x="15" y="125" width="80.5" height="15.5"/>
+                                                                <rect key="frame" x="15" y="125" width="80.5" height="35"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="81" id="Olg-Xb-bnJ"/>
                                                                 </constraints>
@@ -1484,18 +1484,18 @@ Lorem Ipsum, USA </string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:00am  12:00pm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFK-Fa-N6C">
-                                                                <rect key="frame" x="110.5" y="125" width="256.5" height="15.5"/>
+                                                                <rect key="frame" x="110.5" y="134" width="256.5" height="17.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afA-qo-cYr">
-                                                                <rect key="frame" x="15" y="148.5" width="53.5" height="15.5"/>
+                                                                <rect key="frame" x="15" y="168" width="57" height="17.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                                                 <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 mins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBU-3G-U7l">
-                                                                <rect key="frame" x="110.5" y="148.5" width="50" height="15.5"/>
+                                                                <rect key="frame" x="110.5" y="168" width="53" height="17.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -1526,7 +1526,7 @@ Lorem Ipsum, USA </string>
                                                         </constraints>
                                                     </view>
                                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Fm5-Gb-J9I">
-                                                        <rect key="frame" x="0.0" y="179" width="375" height="80"/>
+                                                        <rect key="frame" x="0.0" y="200.5" width="375" height="80"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="80" id="xbX-Zf-th7"/>
@@ -1587,10 +1587,10 @@ Lorem Ipsum, USA </string>
                                                         </connections>
                                                     </tableView>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJt-yH-ETY">
-                                                        <rect key="frame" x="0.0" y="259" width="375" height="105.5"/>
+                                                        <rect key="frame" x="0.0" y="280.5" width="375" height="107.5"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2i7-ZI-1NU">
-                                                                <rect key="frame" x="110" y="45.5" width="155" height="40"/>
+                                                                <rect key="frame" x="110" y="47.5" width="155" height="40"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="40" id="ji0-AQ-fAQ"/>
                                                                     <constraint firstAttribute="width" constant="155" id="qCa-0P-neL"/>
@@ -1604,7 +1604,7 @@ Lorem Ipsum, USA </string>
                                                                 </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHp-y5-3hL">
-                                                                <rect key="frame" x="110" y="46" width="120" height="40"/>
+                                                                <rect key="frame" x="110" y="48" width="120" height="40"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -1621,7 +1621,7 @@ Lorem Ipsum, USA </string>
                                                         </constraints>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check in Timer:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1iE-BE-uOD">
-                                                        <rect key="frame" x="10" y="269" width="94.5" height="15.5"/>
+                                                        <rect key="frame" x="10" y="290.5" width="105.5" height="17.5"/>
                                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                                         <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -1721,7 +1721,7 @@ Lorem Ipsum, USA </string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0h-hq-TV1">
-                                        <rect key="frame" x="162" y="12" width="51.5" height="20.5"/>
+                                        <rect key="frame" x="161" y="10.5" width="54" height="23.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -1748,10 +1748,10 @@ Lorem Ipsum, USA </string>
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="320"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F9h-Eb-h1t">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="281"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="289.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="faL-sW-pAp">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="104.5"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_pic_home" translatesAutoresizingMaskIntoConstraints="NO" id="fcW-Q9-NFl" customClass="SetCornerImageView" customModule="EIjebo" customModuleProvider="target">
                                                                 <rect key="frame" x="15" y="15" width="80" height="80"/>
@@ -1766,12 +1766,12 @@ Lorem Ipsum, USA </string>
                                                                 </userDefinedRuntimeAttributes>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jack Thomas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJ0-7V-q6b">
-                                                                <rect key="frame" x="110" y="15" width="257" height="15.5"/>
+                                                                <rect key="frame" x="110" y="15" width="257" height="17.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2CG-Jr-8Rz">
-                                                                <rect key="frame" x="110" y="38" width="257" height="28.5"/>
+                                                                <rect key="frame" x="110" y="40" width="257" height="33"/>
                                                                 <string key="text">#123 Lorem ipsum, Amet 
 Lorem Ipsum, USA </string>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
@@ -1779,7 +1779,7 @@ Lorem Ipsum, USA </string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="172201" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdD-V0-acS">
-                                                                <rect key="frame" x="110" y="66.5" width="257" height="14.5"/>
+                                                                <rect key="frame" x="110" y="73" width="257" height="16.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                                 <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -1802,7 +1802,7 @@ Lorem Ipsum, USA </string>
                                                         </constraints>
                                                     </view>
                                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gCG-uk-Cvk">
-                                                        <rect key="frame" x="0.0" y="111" width="375" height="100"/>
+                                                        <rect key="frame" x="0.0" y="119.5" width="375" height="100"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="100" id="0rR-xI-aIo"/>
@@ -1863,7 +1863,7 @@ Lorem Ipsum, USA </string>
                                                         </connections>
                                                     </tableView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bC0-fo-Ifi" customClass="SetCorner" customModule="EIjebo" customModuleProvider="target">
-                                                        <rect key="frame" x="20" y="221" width="157.5" height="50"/>
+                                                        <rect key="frame" x="20" y="229.5" width="157.5" height="50"/>
                                                         <color key="backgroundColor" red="0.0019086681999999999" green="0.50138342380000001" blue="0.0034368368799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="50" id="xcr-CD-1Te"/>
@@ -1882,7 +1882,7 @@ Lorem Ipsum, USA </string>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aZ-c6-pNV" customClass="SetCorner" customModule="EIjebo" customModuleProvider="target">
-                                                        <rect key="frame" x="197.5" y="221" width="157.5" height="50"/>
+                                                        <rect key="frame" x="197.5" y="229.5" width="157.5" height="50"/>
                                                         <color key="backgroundColor" red="0.9713711143" green="0.1430932879" blue="0.091485358769999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                                         <state key="normal" title="REJECT">
@@ -1979,16 +1979,16 @@ Lorem Ipsum, USA </string>
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot Password ?" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="jVO-UT-EUh">
-                                <rect key="frame" x="81.5" y="50" width="212" height="20.5"/>
+                                <rect key="frame" x="81.5" y="50" width="212" height="23.5"/>
                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7DX-G5-SvH">
-                                <rect key="frame" x="0.0" y="79" width="375" height="589"/>
+                                <rect key="frame" x="0.0" y="82" width="375" height="586"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHq-WN-NxG" customClass="SetCorner" customModule="EIjebo" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="454.5" width="335" height="48"/>
+                                        <rect key="frame" x="20" y="456.5" width="335" height="48"/>
                                         <color key="backgroundColor" red="0.97254901959999995" green="0.086274509799999996" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="IHq-WN-NxG" secondAttribute="height" multiplier="28:4" id="L6X-lq-iJp"/>
@@ -2058,7 +2058,7 @@ Lorem Ipsum, USA </string>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EWd-PM-Kwf" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="97.5" width="335" height="47.5"/>
+                                        <rect key="frame" x="20" y="99.5" width="335" height="47.5"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_ques" translatesAutoresizingMaskIntoConstraints="NO" id="bCL-MO-Jsk">
                                                 <rect key="frame" x="10" y="16" width="16" height="16"/>
@@ -2106,7 +2106,7 @@ Lorem Ipsum, USA </string>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HK7-Y6-1ch" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="153" width="335" height="48"/>
+                                        <rect key="frame" x="20" y="155" width="335" height="48"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gdb-5D-TKI">
                                                 <rect key="frame" x="10" y="16.5" width="16" height="16"/>
@@ -2155,7 +2155,7 @@ Lorem Ipsum, USA </string>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MgL-9P-Um1" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="209" width="335" height="48"/>
+                                        <rect key="frame" x="20" y="211" width="335" height="48"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_ques" translatesAutoresizingMaskIntoConstraints="NO" id="7jY-rA-iN4">
                                                 <rect key="frame" x="10" y="16" width="16" height="16"/>
@@ -2203,7 +2203,7 @@ Lorem Ipsum, USA </string>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iKz-5v-8WQ" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="265" width="335" height="48"/>
+                                        <rect key="frame" x="20" y="267" width="335" height="48"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u5K-4n-gQZ">
                                                 <rect key="frame" x="10" y="16" width="16" height="16"/>
@@ -2250,7 +2250,7 @@ Lorem Ipsum, USA </string>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H1K-mp-cEk" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="321" width="335" height="47.5"/>
+                                        <rect key="frame" x="20" y="323" width="335" height="47.5"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_ques" translatesAutoresizingMaskIntoConstraints="NO" id="rGg-I6-Tyy">
                                                 <rect key="frame" x="10" y="15" width="16" height="16"/>
@@ -2298,7 +2298,7 @@ Lorem Ipsum, USA </string>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PqR-U3-0jn" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="376.5" width="335" height="48"/>
+                                        <rect key="frame" x="20" y="378.5" width="335" height="48"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DF8-1w-jEq">
                                                 <rect key="frame" x="10" y="16" width="16" height="16"/>
@@ -2346,7 +2346,7 @@ Lorem Ipsum, USA </string>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Security Questions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q25-cX-fag">
-                                        <rect key="frame" x="20" y="73" width="335" height="14.5"/>
+                                        <rect key="frame" x="20" y="73" width="335" height="16.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -2457,7 +2457,7 @@ Lorem Ipsum, USA </string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Card" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYT-p1-ah1">
-                                        <rect key="frame" x="148" y="12" width="80" height="20.5"/>
+                                        <rect key="frame" x="145" y="10.5" width="86" height="23.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -2480,10 +2480,10 @@ Lorem Ipsum, USA </string>
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wml-yz-4U8">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="419.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="423"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mRw-Re-xDe">
-                                                <rect key="frame" x="15" y="79.5" width="345" height="50"/>
+                                                <rect key="frame" x="15" y="83" width="345" height="50"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name on Card" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TKm-cs-8Yp">
                                                         <rect key="frame" x="8" y="8" width="329" height="28"/>
@@ -2523,7 +2523,7 @@ Lorem Ipsum, USA </string>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YPj-of-vNx">
-                                                <rect key="frame" x="15" y="144.5" width="345" height="50"/>
+                                                <rect key="frame" x="15" y="148" width="345" height="50"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Card Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DhT-mk-aDp">
                                                         <rect key="frame" x="8" y="8" width="329" height="28"/>
@@ -2563,12 +2563,12 @@ Lorem Ipsum, USA </string>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Card Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yj7-Dt-fi0">
-                                                <rect key="frame" x="15" y="25" width="169" height="24.5"/>
+                                                <rect key="frame" x="15" y="25" width="182.5" height="28"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="24"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MoP-fg-dAz">
-                                                <rect key="frame" x="15" y="209.5" width="345" height="50"/>
+                                                <rect key="frame" x="15" y="213" width="345" height="50"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="MM/YY" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Laz-rp-FSh">
                                                         <rect key="frame" x="8" y="8" width="329" height="28"/>
@@ -2608,7 +2608,7 @@ Lorem Ipsum, USA </string>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EpI-u4-eeb">
-                                                <rect key="frame" x="15" y="274.5" width="345" height="50"/>
+                                                <rect key="frame" x="15" y="278" width="345" height="50"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="CVV" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N2a-jF-cYW">
                                                         <rect key="frame" x="8" y="8" width="329" height="28"/>
@@ -2648,7 +2648,7 @@ Lorem Ipsum, USA </string>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lut-dC-xC5" customClass="SetCorner" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="15" y="354.5" width="345" height="45"/>
+                                                <rect key="frame" x="15" y="358" width="345" height="45"/>
                                                 <color key="backgroundColor" red="0.97254901959999995" green="0.086274509799999996" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="1Dc-fc-S8R"/>
@@ -2770,7 +2770,7 @@ Lorem Ipsum, USA </string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4s-kc-Ysk">
-                                                    <rect key="frame" x="60" y="14" width="240" height="17.5"/>
+                                                    <rect key="frame" x="60" y="13.5" width="240" height="17.5"/>
                                                     <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                                     <color key="textColor" red="0.10866803680000001" green="0.12822315100000001" blue="0.255177021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -2832,12 +2832,12 @@ Lorem Ipsum, USA </string>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4c6-7E-5cU">
-                                        <rect key="frame" x="108" y="52" width="199" height="17.5"/>
+                                        <rect key="frame" x="108" y="51.5" width="199" height="17.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567896" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6k-Rs-pXG">
-                                        <rect key="frame" x="108" y="77.5" width="199" height="15.5"/>
+                                        <rect key="frame" x="108" y="77" width="199" height="15.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                         <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -3002,7 +3002,7 @@ Lorem Ipsum, USA </string>
                                 <rect key="frame" x="0.0" y="70" width="375" height="2430"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OgD-mw-V8T">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2221.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2233.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sea-wM-CnY" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="120" width="335" height="48"/>
@@ -3054,7 +3054,7 @@ Lorem Ipsum, USA </string>
                                                 <rect key="frame" x="20" y="176" width="335" height="47"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_name" translatesAutoresizingMaskIntoConstraints="NO" id="iE2-qE-c7f">
-                                                        <rect key="frame" x="8" y="16" width="16" height="16"/>
+                                                        <rect key="frame" x="8" y="16.5" width="16" height="16"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="16" id="8Lo-7R-4kv"/>
                                                             <constraint firstAttribute="height" constant="16" id="Pwc-t3-ULD"/>
@@ -3234,7 +3234,7 @@ Lorem Ipsum, USA </string>
                                                 <rect key="frame" x="20" y="399" width="335" height="47"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_pswd" translatesAutoresizingMaskIntoConstraints="NO" id="Syh-DF-6Ub">
-                                                        <rect key="frame" x="8" y="15.5" width="15" height="15"/>
+                                                        <rect key="frame" x="8" y="15" width="15" height="15"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="15" id="GCa-KT-izo"/>
                                                             <constraint firstAttribute="width" constant="15" id="JAc-X0-GpA"/>
@@ -3321,12 +3321,12 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zk9-ds-AdO">
-                                                <rect key="frame" x="20" y="512" width="25" height="17.5"/>
+                                                <rect key="frame" x="20" y="512" width="29" height="20"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="86G-3y-JIl">
-                                                <rect key="frame" x="20" y="537.5" width="335" height="60"/>
+                                                <rect key="frame" x="20" y="540" width="335" height="60"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKw-Kg-egA">
                                                         <rect key="frame" x="8" y="4" width="66" height="24"/>
@@ -3343,7 +3343,7 @@ Lorem Ipsum, USA </string>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qex-p7-GrB">
-                                                        <rect key="frame" x="259" y="2" width="68" height="28"/>
+                                                        <rect key="frame" x="259" y="1" width="68" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="68" id="qas-Gx-YYO"/>
                                                         </constraints>
@@ -3411,7 +3411,7 @@ Lorem Ipsum, USA </string>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sph-Eb-OVj" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="605.5" width="335" height="48"/>
+                                                <rect key="frame" x="20" y="608" width="335" height="48"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_flag" translatesAutoresizingMaskIntoConstraints="NO" id="u8p-VC-a0E">
                                                         <rect key="frame" x="8" y="16" width="16" height="16"/>
@@ -3457,10 +3457,10 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y9l-AM-Thb" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="661.5" width="335" height="47"/>
+                                                <rect key="frame" x="20" y="664" width="335" height="47"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_location" translatesAutoresizingMaskIntoConstraints="NO" id="kfP-pB-70v">
-                                                        <rect key="frame" x="8" y="16" width="16" height="16"/>
+                                                        <rect key="frame" x="8" y="16.5" width="16" height="16"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="16" id="b4H-Ok-VdT"/>
                                                             <constraint firstAttribute="height" constant="16" id="hCB-TB-2V6"/>
@@ -3513,7 +3513,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jCg-zp-bcC" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="716.5" width="335" height="48"/>
+                                                <rect key="frame" x="20" y="719" width="335" height="48"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_location" translatesAutoresizingMaskIntoConstraints="NO" id="MRl-TE-t8S">
                                                         <rect key="frame" x="8" y="16" width="16" height="16"/>
@@ -3559,7 +3559,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j7a-tB-C3C" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="772.5" width="106.5" height="48"/>
+                                                <rect key="frame" x="20" y="775" width="106.5" height="48"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="State" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kJS-bo-D7O">
                                                         <rect key="frame" x="8" y="8" width="90.5" height="32"/>
@@ -3596,7 +3596,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wqy-Hi-JpN" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="134.5" y="772.5" width="106" height="48"/>
+                                                <rect key="frame" x="134.5" y="775" width="106" height="48"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fnm-yk-isr">
                                                         <rect key="frame" x="8" y="8" width="90" height="32"/>
@@ -3633,7 +3633,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ka2-zH-zcu" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="248.5" y="772.5" width="106.5" height="48"/>
+                                                <rect key="frame" x="248.5" y="775" width="106.5" height="48"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Zip Code" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nFj-zT-5uW">
                                                         <rect key="frame" x="8" y="8" width="90.5" height="32"/>
@@ -3670,16 +3670,16 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Security Questions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WiX-Iv-YrK">
-                                                <rect key="frame" x="20" y="884" width="128" height="17.5"/>
+                                                <rect key="frame" x="20" y="886.5" width="144" height="20"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eTm-eb-6V1" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="909.5" width="335" height="47"/>
+                                                <rect key="frame" x="20" y="914.5" width="335" height="47"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_ques" translatesAutoresizingMaskIntoConstraints="NO" id="CUD-hs-UKC">
-                                                        <rect key="frame" x="8" y="15" width="16" height="16"/>
+                                                        <rect key="frame" x="8" y="14.5" width="16" height="16"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="16" id="6wS-S7-oWA"/>
                                                             <constraint firstAttribute="width" constant="16" id="cfZ-Ei-CC2"/>
@@ -3722,7 +3722,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qc9-3c-6qd" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="964.5" width="335" height="48"/>
+                                                <rect key="frame" x="20" y="969.5" width="335" height="48"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Answer" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G4b-C9-XGa">
                                                         <rect key="frame" x="20" y="8" width="295" height="32"/>
@@ -3759,7 +3759,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xUN-hq-n0k" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="1020.5" width="335" height="48"/>
+                                                <rect key="frame" x="20" y="1025.5" width="335" height="48"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_ques" translatesAutoresizingMaskIntoConstraints="NO" id="OG3-lC-S7L">
                                                         <rect key="frame" x="8" y="15.5" width="16" height="16"/>
@@ -3805,7 +3805,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8K9-hk-FLg" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="1076.5" width="335" height="47"/>
+                                                <rect key="frame" x="20" y="1081.5" width="335" height="47"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Answer" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dYP-GQ-fdf">
                                                         <rect key="frame" x="20" y="8" width="295" height="31"/>
@@ -3842,7 +3842,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Yd-vb-9Kh" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="1131.5" width="335" height="48"/>
+                                                <rect key="frame" x="20" y="1136.5" width="335" height="48"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_ques" translatesAutoresizingMaskIntoConstraints="NO" id="3Mm-qT-fw1">
                                                         <rect key="frame" x="8" y="16.5" width="16" height="16"/>
@@ -3888,7 +3888,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="971-Iz-qyR" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="1187.5" width="335" height="48"/>
+                                                <rect key="frame" x="20" y="1192.5" width="335" height="48"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Answer" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kzk-kF-WTU">
                                                         <rect key="frame" x="20" y="8" width="295" height="32"/>
@@ -3925,13 +3925,13 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WnP-cj-wQs">
-                                                <rect key="frame" x="20" y="1245.5" width="69" height="17.5"/>
+                                                <rect key="frame" x="20" y="1250.5" width="77" height="20"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QQv-cB-mFj">
-                                                <rect key="frame" x="20" y="1270.5" width="335" height="102.5"/>
+                                                <rect key="frame" x="20" y="1278" width="335" height="104.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F44-Ds-oOM">
                                                         <rect key="frame" x="0.0" y="2" width="328" height="28"/>
@@ -3947,7 +3947,7 @@ Lorem Ipsum, USA </string>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aep-ku-dk5">
-                                                        <rect key="frame" x="8" y="29.5" width="319" height="28"/>
+                                                        <rect key="frame" x="8" y="29.5" width="319" height="30"/>
                                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                                         <state key="normal">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -3957,7 +3957,7 @@ Lorem Ipsum, USA </string>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6vh-yR-PCT">
-                                                        <rect key="frame" x="8" y="61" width="319" height="28"/>
+                                                        <rect key="frame" x="8" y="62" width="319" height="30"/>
                                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                                         <state key="normal">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -3967,21 +3967,21 @@ Lorem Ipsum, USA </string>
                                                         </connections>
                                                     </button>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_uncheck" translatesAutoresizingMaskIntoConstraints="NO" id="r96-3g-Ss6">
-                                                        <rect key="frame" x="8" y="35.5" width="15" height="15"/>
+                                                        <rect key="frame" x="8" y="36.5" width="15" height="15"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="15" id="Rd4-iu-8Fb"/>
                                                             <constraint firstAttribute="height" constant="15" id="VOr-F2-cxa"/>
                                                         </constraints>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_uncheck" translatesAutoresizingMaskIntoConstraints="NO" id="8fq-In-1tv">
-                                                        <rect key="frame" x="8" y="67.5" width="15" height="15"/>
+                                                        <rect key="frame" x="8" y="69.5" width="15" height="15"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="15" id="Sx5-6n-EFG"/>
                                                             <constraint firstAttribute="height" constant="15" id="m4C-Rf-b8S"/>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="College &amp; Above" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vu7-a4-HcY">
-                                                        <rect key="frame" x="31" y="66" width="113.5" height="18"/>
+                                                        <rect key="frame" x="31" y="68" width="113.5" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -4001,7 +4001,7 @@ Lorem Ipsum, USA </string>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High School" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DuR-zR-G10">
-                                                        <rect key="frame" x="31" y="34" width="83" height="18"/>
+                                                        <rect key="frame" x="31" y="35" width="83" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -4035,7 +4035,7 @@ Lorem Ipsum, USA </string>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B2J-FQ-Ptx" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="1373" width="335" height="48"/>
+                                                <rect key="frame" x="20" y="1382.5" width="335" height="48"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_certifications" translatesAutoresizingMaskIntoConstraints="NO" id="2GB-7v-2ph">
                                                         <rect key="frame" x="8" y="15.5" width="16" height="16"/>
@@ -4081,10 +4081,10 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uvi-P1-mDq" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="1429" width="335" height="47"/>
+                                                <rect key="frame" x="20" y="1438.5" width="335" height="47"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_services" translatesAutoresizingMaskIntoConstraints="NO" id="4xh-l4-cVf">
-                                                        <rect key="frame" x="8" y="14.5" width="16" height="16"/>
+                                                        <rect key="frame" x="8" y="15" width="16" height="16"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="16" id="Hdg-qv-dzN"/>
                                                             <constraint firstAttribute="width" constant="16" id="cVY-kl-Dco"/>
@@ -4127,7 +4127,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Gxi-BB-kZ0">
-                                                <rect key="frame" x="20" y="1476" width="335" height="200"/>
+                                                <rect key="frame" x="20" y="1485.5" width="335" height="200"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="Qic-QQ-Tvf"/>
@@ -4139,7 +4139,7 @@ Lorem Ipsum, USA </string>
                                                 </connections>
                                             </tableView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1be-TJ-Pab" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="1684" width="335" height="48"/>
+                                                <rect key="frame" x="20" y="1693.5" width="335" height="48"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_charge_amount" translatesAutoresizingMaskIntoConstraints="NO" id="8cC-S9-hSn">
                                                         <rect key="frame" x="8" y="16.5" width="16" height="16"/>
@@ -4149,7 +4149,7 @@ Lorem Ipsum, USA </string>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service Charge Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGl-9H-wHf">
-                                                        <rect key="frame" x="32" y="16" width="295" height="17.5"/>
+                                                        <rect key="frame" x="32" y="15.5" width="295" height="20"/>
                                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -4181,7 +4181,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DQR-Y5-SKt">
-                                                <rect key="frame" x="20" y="1740" width="335" height="68"/>
+                                                <rect key="frame" x="20" y="1749.5" width="335" height="68"/>
                                                 <color key="backgroundColor" red="0.79993194341659546" green="0.80004507303237915" blue="0.79989629983901978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="68" id="WU2-gJ-o6m"/>
@@ -4250,7 +4250,7 @@ Lorem Ipsum, USA </string>
                                                 </connections>
                                             </tableView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a2J-ao-d4w" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="1946" width="163.5" height="48.5"/>
+                                                <rect key="frame" x="20" y="1958" width="163.5" height="48.5"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="To" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WQj-cp-gSk">
                                                         <rect key="frame" x="8" y="8" width="147.5" height="32.5"/>
@@ -4287,7 +4287,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vDf-AK-Kvp" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="191.5" y="1946" width="163.5" height="48.5"/>
+                                                <rect key="frame" x="191.5" y="1958" width="163.5" height="48.5"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="From" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gQX-sq-GyV">
                                                         <rect key="frame" x="8" y="8" width="147.5" height="32.5"/>
@@ -4324,10 +4324,10 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uqH-ed-3w8" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="2002.5" width="335" height="48"/>
+                                                <rect key="frame" x="20" y="2014.5" width="335" height="48"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_camera" translatesAutoresizingMaskIntoConstraints="NO" id="Jlo-js-P2g">
-                                                        <rect key="frame" x="8" y="17" width="16" height="16"/>
+                                                        <rect key="frame" x="8" y="16.5" width="16" height="16"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="16" id="Gou-vB-CuE"/>
                                                             <constraint firstAttribute="width" constant="16" id="JKw-EC-Ucf"/>
@@ -4371,7 +4371,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="LEu-Uh-b6U">
-                                                <rect key="frame" x="20" y="2058.5" width="335" height="80"/>
+                                                <rect key="frame" x="20" y="2070.5" width="335" height="80"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="RVD-ks-k6B"/>
@@ -4431,7 +4431,7 @@ Lorem Ipsum, USA </string>
                                                 </connections>
                                             </collectionView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dA5-AR-7eW" customClass="SetCorner" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="2146.5" width="335" height="45"/>
+                                                <rect key="frame" x="20" y="2158.5" width="335" height="45"/>
                                                 <color key="backgroundColor" red="0.97254901959999995" green="0.086274509799999996" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="Y4q-fw-nk6"/>
@@ -4451,7 +4451,7 @@ Lorem Ipsum, USA </string>
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hr5-BJ-lB6" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="828" width="335" height="48"/>
+                                                <rect key="frame" x="20" y="830.5" width="335" height="48"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_call_red" translatesAutoresizingMaskIntoConstraints="NO" id="wVm-Oa-Mgj">
                                                         <rect key="frame" x="8" y="16" width="16" height="16"/>
@@ -4497,7 +4497,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csc-mO-oOb">
-                                                <rect key="frame" x="20" y="1920.5" width="34" height="17.5"/>
+                                                <rect key="frame" x="20" y="1930" width="37.5" height="20"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -4515,7 +4515,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dal-HY-M6o" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="1843" width="335" height="70"/>
+                                                <rect key="frame" x="20" y="1852.5" width="335" height="70"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mVc-C3-1jO">
                                                         <rect key="frame" x="8" y="8" width="319" height="54"/>
@@ -4545,7 +4545,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description ( 100 characters )" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqZ-qN-Mv1">
-                                                <rect key="frame" x="20" y="1817" width="200.5" height="18"/>
+                                                <rect key="frame" x="20" y="1826.5" width="223" height="18"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="18" id="OR5-5V-Jna"/>
                                                 </constraints>
@@ -4797,7 +4797,7 @@ Lorem Ipsum, USA </string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OiG-h9-ImP">
-                                        <rect key="frame" x="147.5" y="12" width="80.5" height="20.5"/>
+                                        <rect key="frame" x="143.5" y="10.5" width="89" height="23.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -4838,12 +4838,12 @@ Lorem Ipsum, USA </string>
                                                                 </userDefinedRuntimeAttributes>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jack Thomas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDc-Ss-ebI">
-                                                                <rect key="frame" x="110" y="15" width="257" height="15.5"/>
+                                                                <rect key="frame" x="110" y="15" width="257" height="17.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4BP-cT-tYu">
-                                                                <rect key="frame" x="110" y="38" width="257" height="28.5"/>
+                                                                <rect key="frame" x="110" y="40" width="257" height="33"/>
                                                                 <string key="text">#123 Lorem ipsum, Amet 
 Lorem Ipsum, USA </string>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
@@ -4851,7 +4851,7 @@ Lorem Ipsum, USA </string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12 Jun, 2018" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQu-Kj-vhe">
-                                                                <rect key="frame" x="110" y="85" width="257" height="14.5"/>
+                                                                <rect key="frame" x="110" y="93.5" width="257" height="16.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                                 <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -4874,7 +4874,7 @@ Lorem Ipsum, USA </string>
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:00pm - 12:20pm" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ET3-Aj-peG">
-                                                                <rect key="frame" x="110" y="68.5" width="257" height="14.5"/>
+                                                                <rect key="frame" x="110" y="75" width="257" height="16.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                                 <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -5067,7 +5067,7 @@ Lorem Ipsum, USA </string>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter 6 digit OTP code sent to your email" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zug-6X-Yc1">
-                                        <rect key="frame" x="20" y="209" width="335" height="50.5"/>
+                                        <rect key="frame" x="20" y="201" width="335" height="58.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -5267,7 +5267,7 @@ Lorem Ipsum, USA </string>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DeR-Bm-65K">
-                                        <rect key="frame" x="251" y="337.5" width="104" height="40"/>
+                                        <rect key="frame" x="240" y="337.5" width="115" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="ae5-js-2vG"/>
                                         </constraints>
@@ -5687,7 +5687,7 @@ Lorem Ipsum, USA </string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms &amp; Conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPF-s2-q41">
-                                        <rect key="frame" x="107.5" y="12.5" width="161.5" height="20.5"/>
+                                        <rect key="frame" x="101" y="11" width="174.5" height="23.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -5727,7 +5727,7 @@ Lorem Ipsum, USA </string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oxr-Ow-qlU">
-                                <rect key="frame" x="59" y="549" width="20" height="20"/>
+                                <rect key="frame" x="51" y="548" width="20" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="kEz-UK-E5f"/>
                                     <constraint firstAttribute="height" constant="20" id="qef-QZ-hrz"/>
@@ -5739,20 +5739,20 @@ Lorem Ipsum, USA </string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I agree to terms &amp; conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="who-Pq-wiP">
-                                <rect key="frame" x="87" y="549.5" width="202.5" height="17.5"/>
+                                <rect key="frame" x="79" y="547" width="219" height="20"/>
                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <webView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1IL-sJ-5SQ">
-                                <rect key="frame" x="15" y="79" width="345" height="450.5"/>
+                                <rect key="frame" x="15" y="79" width="345" height="448"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="delegate" destination="6UJ-kO-EJ6" id="0Rl-oN-FSa"/>
                                 </connections>
                             </webView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="UAE-DJ-I8V">
-                                <rect key="frame" x="15" y="79" width="345" height="455"/>
+                                <rect key="frame" x="15" y="79" width="345" height="454"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -5917,7 +5917,7 @@ Lorem Ipsum, USA </string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Merry Thomas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YDG-FM-TC7">
-                                        <rect key="frame" x="128" y="12.5" width="120" height="20.5"/>
+                                        <rect key="frame" x="123.5" y="11" width="129" height="23.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -5969,7 +5969,7 @@ Lorem Ipsum, USA </string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Qp-Lt-WCo">
-                                                                <rect key="frame" x="110" y="43" width="257" height="28.5"/>
+                                                                <rect key="frame" x="110" y="43" width="257" height="33"/>
                                                                 <string key="text">#123 Lorem ipsum, Amet 
 Lorem Ipsum, USA </string>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
@@ -5977,7 +5977,7 @@ Lorem Ipsum, USA </string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vO-re-ZxA">
-                                                                <rect key="frame" x="110" y="71.5" width="257" height="23.5"/>
+                                                                <rect key="frame" x="110" y="76" width="257" height="19"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                                 <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -6001,7 +6001,7 @@ Lorem Ipsum, USA </string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vff-Ye-HDO">
-                                                                <rect key="frame" x="15" y="153" width="53.5" height="20"/>
+                                                                <rect key="frame" x="15" y="153" width="57" height="20"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="20" id="w7M-up-59p"/>
                                                                 </constraints>
@@ -6010,7 +6010,7 @@ Lorem Ipsum, USA </string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JYn-f7-tdp">
-                                                                <rect key="frame" x="125" y="153" width="32.5" height="20"/>
+                                                                <rect key="frame" x="125" y="153" width="37" height="20"/>
                                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -6058,7 +6058,7 @@ Lorem Ipsum, USA </string>
                                                         <rect key="frame" x="0.0" y="280" width="375" height="231"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check in timer:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LR1-A3-mLF">
-                                                                <rect key="frame" x="10" y="15" width="92" height="20"/>
+                                                                <rect key="frame" x="10" y="15" width="101.5" height="20"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="20" id="1eW-ub-9CT"/>
                                                                 </constraints>
@@ -6158,19 +6158,19 @@ Lorem Ipsum, USA </string>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Messages" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKl-02-kcz">
-                                                                        <rect key="frame" x="10" y="48" width="52" height="12.5"/>
+                                                                        <rect key="frame" x="8.5" y="48" width="55" height="14"/>
                                                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="12"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Call" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJL-bl-vbk">
-                                                                        <rect key="frame" x="98.5" y="48" width="19" height="12.5"/>
+                                                                        <rect key="frame" x="97.5" y="48" width="20.5" height="14"/>
                                                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="12"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Chat" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wq2-Yx-zQH">
-                                                                        <rect key="frame" x="152.5" y="48" width="54.5" height="12.5"/>
+                                                                        <rect key="frame" x="150" y="48" width="59.5" height="14"/>
                                                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="12"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -6179,7 +6179,7 @@ Lorem Ipsum, USA </string>
                                                                         <rect key="frame" x="87.5" y="8" width="40" height="35"/>
                                                                     </imageView>
                                                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nd-TC-HyU" customClass="SetCorner" customModule="EIjebo" customModuleProvider="target">
-                                                                        <rect key="frame" x="257.5" y="18" width="93.5" height="37.5"/>
+                                                                        <rect key="frame" x="254.5" y="18" width="96.5" height="39"/>
                                                                         <color key="backgroundColor" red="0.97254901959999995" green="0.086274509799999996" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="3nd-TC-HyU" secondAttribute="height" multiplier="10:4" id="5cM-9V-Att"/>

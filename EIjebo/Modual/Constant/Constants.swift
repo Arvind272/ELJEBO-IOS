@@ -20,7 +20,7 @@ enum AppInfo {
     static let redColor = UIColor(red:248/255, green: 22/255, blue: 22/255, alpha: 1)
     
 }
-
+//getCountryList
 enum Apis {
     static let KServerUrl =  "http://jupiter.toxsl.in/eljebo/"
     static let KUserCheck = "\(Apis.KServerUrl)user/check"

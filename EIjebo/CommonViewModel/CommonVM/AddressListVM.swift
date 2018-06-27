@@ -15,8 +15,8 @@ class AddressListVM: NSObject {
     var id = String()
     
     func countryListApi(_ completion:@escaping() -> Void) {
-        WebServiceProxy.shared.getData("\(Apis.KServerUrl)\(Apis.KCountryList)", showIndicator: true, completion: { (JSON) in
-            if JSON["status"] as! Int == 200 {
+        WebServiceProxy.shared.getData("http://103.15.67.74/eljebo/webservice/new/main/getCountryList", showIndicator: true, completion: { (JSON) in
+            if JSON["status"] as! Int == 1 {
                 if let countryArr = JSON["data"] as? NSArray
                 {
                     for i in 0..<countryArr.count{
@@ -34,8 +34,8 @@ class AddressListVM: NSObject {
         })
     }
     func stateListApi(_ completion:@escaping() -> Void) {
-        WebServiceProxy.shared.getData("\(Apis.KServerUrl)\(Apis.KStateList)\(id)", showIndicator: true, completion: { (JSON) in
-            if JSON["status"] as! Int == 200 {
+        WebServiceProxy.shared.getData("http://103.15.67.74/eljebo/webservice/new/main/getStateList?country_id=\(id)", showIndicator: true, completion: { (JSON) in
+            if JSON["status"] as! Int == 1 {
                 if let countryArr = JSON["data"] as? NSArray
                 {
                     for i in 0..<countryArr.count{
@@ -53,8 +53,8 @@ class AddressListVM: NSObject {
         })
     }
     func cityListApi(_ completion:@escaping() -> Void) {
-        WebServiceProxy.shared.getData("\(Apis.KServerUrl)\(Apis.KCityList)\(id)", showIndicator: true, completion: { (JSON) in
-            if JSON["status"] as! Int == 200 {
+        WebServiceProxy.shared.getData("http://103.15.67.74/eljebo/webservice/new/main/getCityList?state_id=\(id)", showIndicator: true, completion: { (JSON) in
+            if JSON["status"] as! Int == 1 {
                 if let countryArr = JSON["data"] as? NSArray
                 {
                     for i in 0..<countryArr.count{

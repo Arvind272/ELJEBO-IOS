@@ -22,8 +22,8 @@ class AddressModel: NSObject {
         }else if let idVal  = dict["id"] as? Int{
             id = "\(idVal)"
         }
-        stateId = dict["state_id"]! as? Int ?? 0
-        typeID = dict["type_id"]! as? Int ?? 0
-        title = dict["title"]! as? String ?? ""
+        //stateId = dict["state_id"]! as? Int ?? 0
+      //  typeID = dict["type_id"]! as? Int ?? 0
+        title = dict["name"]! as? String ?? ""
   }
 }

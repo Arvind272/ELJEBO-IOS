@@ -12,9 +12,9 @@ class CommonServicesListViewModal: NSObject {
     var servicesListArr = [CommonServiceListModel]()
     
     func servicesListApi(_ completion:@escaping() -> Void) {
-        WebServiceProxy.shared.getData("\(Apis.KServerUrl)\(Apis.KServicesList)", showIndicator: true, completion: { (JSON) in
-            if JSON["status"] as! Int == 200 {
-                if let countryArr = JSON["detail"] as? NSArray
+        WebServiceProxy.shared.getData("http://103.15.67.74/eljebo/webservice/new/main/getServiceList", showIndicator: true, completion: { (JSON) in
+            if JSON["status"] as! Int == 1 {
+                if let countryArr = JSON["data"] as? NSArray
                 {
                     for i in 0..<countryArr.count{
                         let dictItem = countryArr.object(at: i) as! NSDictionary

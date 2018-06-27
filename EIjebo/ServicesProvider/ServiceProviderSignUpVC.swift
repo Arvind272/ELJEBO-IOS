@@ -81,7 +81,7 @@ class ServiceProviderSignUpVC: UIViewController ,UITableViewDelegate,UITableView
     // MARK: - VARIABLE
     var selectedSection = Int()
      var selectedIndex = -1
-  let valueArr = [["sub_service_id":"","charge_amount":""]]
+    let valueArr = [["sub_service_id":"","charge_amount":""]]
     var selectedServicesArray = NSMutableArray()
     var timePicker = UIDatePicker()
     var cameFromGalley = ""

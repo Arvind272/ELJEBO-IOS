@@ -39,13 +39,13 @@ class ServicesSignupVM: NSObject {
             print(error.description)
         }
         let param = [
-            "User[first_name]" :firstName!,
-            "User[last_name]" :lastName!,
-            "User[email]":email!,
-            "User[password]":password,
-            "User[username]":userName!,
+            "firstname" :firstName!,
+            "lastname" :lastName!,
+            "email":email!,
+            "password":password,
+            "username":userName!,
             "User[zipcode]":zipCode!,
-            "User[gender]":gender!,
+            "gender":gender!,
             "User[country]":country!,
             "User[address]":address!,
             "User[address_two]":address2!,
@@ -64,20 +64,23 @@ class ServicesSignupVM: NSObject {
             "User[longitude]":longitute!,
             "security_question":qusetionsStr,
             "sub_services":subCategory,
+            "device_type":"1",
+            "device_token":deviceTokken,
+            
             ] as [String:AnyObject]
         
         var paramImage = [String:UIImage]()
         for i in 0..<self.imagesArray.count {
             paramImage["Menu[multiImage][\(i)]"] =  imagesArray[i]
         }
-        let addItemUrl = "\(Apis.KServerUrl)\(Apis.KSignup)"
+        let addItemUrl = "http://103.15.67.74/eljebo/webservice/new/main/serviceProviderSignup"
         WebServiceProxy.shared.uploadImage(param, parametersImage: paramImage, addImageUrl: addItemUrl, showIndicator: true) { (jsonResponse) in
-            Proxy.shared.displayStatusCodeAlert(SuccessAlertValue.itemAdded)
-            if jsonResponse["status"] as! Int == 200 {
+            //Proxy.shared.displayStatusCodeAlert(SuccessAlertValue.itemAdded)
+            if jsonResponse["status"] as! Int == 1 {
                 Proxy.shared.displayStatusCodeAlert("Registered Successfully")
                 completion()
             } else {
-                if let error = jsonResponse["error"] as? String {
+                if let error = jsonResponse["message"] as? String {
                     Proxy.shared.displayStatusCodeAlert(error)
                 }
             }

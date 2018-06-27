@@ -13,22 +13,22 @@ class CommonServiceListModel: NSObject {
     var stateId,typeId : Int!
     var subServicesArr = [SubServiceModel]()
     func servicesList(_ dict:NSDictionary)   {
-        if let idVal  = dict["id"] as? String{
+        if let idVal  = dict["service_id"] as? String{
             if idVal != ""
             {
                 id = idVal
             }else{
                 id = "0"
             }
-        }else if let idVal  = dict["id"] as? Int{
+        }else if let idVal  = dict["service_id"] as? Int{
             id = "\(idVal)"
         }
         
         
-        stateId = dict["state_id"]! as? Int ?? 0
-        typeId = dict["type_id"]! as? Int ?? 0
-        title = dict["title"]! as? String ?? ""
-        if let subArr = dict["subServices"] as? NSArray
+     //   stateId = dict["state_id"]! as? Int ?? 0
+      //  typeId = dict["type_id"]! as? Int ?? 0
+        title = dict["service_name"]! as? String ?? ""
+        if let subArr = dict["sub_service"] as? NSArray
         {
             for i in 0..<subArr.count{
                 let dictItem = subArr.object(at: i) as! NSDictionary
@@ -43,17 +43,17 @@ class SubServiceModel: NSObject {
     var id,servicesId,title : String!
     var stateId,typeId : Int!
     func subServicesList(_ dict:NSDictionary)   {
-        if let idVal  = dict["id"] as? String{
+        if let idVal  = dict["sub_service_id"] as? String{
             if idVal != ""
             {
                 id = idVal
             }else{
                 id = "0"
             }
-        }else if let idVal  = dict["id"] as? Int{
+        }else if let idVal  = dict["sub_service_id"] as? Int{
             id = "\(idVal)"
         }
-        if let idVal  = dict["service_id"] as? String{
+        if let idVal  = dict["sub_service_id"] as? String{
             if idVal != ""
             {
                 servicesId = idVal
@@ -63,9 +63,9 @@ class SubServiceModel: NSObject {
         }else if let idVal  = dict["service_id"] as? Int{
             servicesId = "\(idVal)"
         }
-        stateId = dict["state_id"]! as? Int ?? 0
-        typeId = dict["type_id"]! as? Int ?? 0
-        title = dict["title"]! as? String ?? ""
+        //stateId = dict["state_id"]! as? Int ?? 0
+       // typeId = dict["type_id"]! as? Int ?? 0
+        title = dict["sub_service_name"]! as? String ?? ""
     }
 }
 

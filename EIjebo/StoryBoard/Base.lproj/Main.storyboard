@@ -49,7 +49,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Eljebo!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ik3-ew-WPl">
-                                        <rect key="frame" x="10" y="244" width="301" height="60"/>
+                                        <rect key="frame" x="10.5" y="244" width="301" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="v9N-jy-T6d"/>
                                         </constraints>
@@ -836,7 +836,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjR-Ih-qFe">
-                                        <rect key="frame" x="133.5" y="11" width="54" height="23.5"/>
+                                        <rect key="frame" x="134" y="11" width="54" height="23.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -995,7 +995,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="List of Service Providers" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBs-Ta-tN9">
-                                        <rect key="frame" x="52" y="10.5" width="217" height="23.5"/>
+                                        <rect key="frame" x="52.5" y="10.5" width="217" height="23.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -1245,10 +1245,10 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N5R-12-INX">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="581"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="604.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vd2-00-BvZ" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="385" width="280" height="40"/>
+                                                <rect key="frame" x="20" y="408.5" width="280" height="40"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ewm-qX-eJl">
                                                         <rect key="frame" x="8" y="8" width="240" height="24"/>
@@ -1295,7 +1295,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="erw-i6-IFZ" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="433" width="280" height="40"/>
+                                                <rect key="frame" x="20" y="456.5" width="280" height="40"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Time" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tc7-Zc-AvF">
                                                         <rect key="frame" x="8" y="8" width="240" height="24"/>
@@ -1342,7 +1342,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xsM-Fv-qcB" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="481" width="280" height="40"/>
+                                                <rect key="frame" x="20" y="504.5" width="280" height="40"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Duration" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1ub-xq-taR">
                                                         <rect key="frame" x="8" y="8" width="240" height="24"/>
@@ -1389,7 +1389,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npq-HY-BZ4" customClass="SetCorner" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="531" width="280" height="40"/>
+                                                <rect key="frame" x="20" y="554.5" width="280" height="40"/>
                                                 <color key="backgroundColor" red="0.97254901959999995" green="0.086274509799999996" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="npq-HY-BZ4" secondAttribute="height" multiplier="28:4" id="dQu-bT-Zx8"/>
@@ -1447,22 +1447,25 @@ Lorem Ipsum, USA</string>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Availability" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kP4-qf-yWP">
-                                                <rect key="frame" x="20" y="300" width="80" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Availability" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kP4-qf-yWP">
+                                                <rect key="frame" x="107" y="262.5" width="71" height="14.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="80" id="J3J-9h-AW6"/>
+                                                    <constraint firstAttribute="height" constant="14.5" id="NF1-CE-LKR"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                 <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="10:00am - 5:00pm" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QfE-nJ-a49">
-                                                <rect key="frame" x="108" y="300" width="204" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" ambiguous="YES" text="10:00am - 5:00pm" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QfE-nJ-a49">
+                                                <rect key="frame" x="204.5" y="262.5" width="107.5" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="15" id="U0R-cg-jAE"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uRt-y3-0Sr">
-                                                <rect key="frame" x="0.0" y="327" width="320" height="50"/>
+                                                <rect key="frame" x="0.0" y="350.5" width="320" height="50"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="dfe-Yk-qEg"/>
@@ -1482,20 +1485,57 @@ Lorem Ipsum, USA</string>
                                                     <outlet property="delegate" destination="RUe-PM-0C8" id="H4o-u0-JtL"/>
                                                 </connections>
                                             </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lM7-GN-RPg" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="288" width="280" height="55"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZ2-hS-8Ik">
+                                                        <rect key="frame" x="8" y="3" width="61.5" height="14"/>
+                                                        <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="12"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Implements a read-only text view. A label can contain an arbitrary amount of text, but UILabel may shrink, wrap, or" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dK5-MB-6w4">
+                                                        <rect key="frame" x="8" y="18.5" width="264" height="33"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="264" id="1Aq-4S-Pej"/>
+                                                            <constraint firstAttribute="height" constant="33" id="oCs-D6-nZK"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="12"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.94893974069999998" green="0.94907253979999995" blue="0.94889777900000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstItem="vZ2-hS-8Ik" firstAttribute="top" secondItem="lM7-GN-RPg" secondAttribute="top" constant="3" id="3qw-aH-eAI"/>
+                                                    <constraint firstItem="vZ2-hS-8Ik" firstAttribute="leading" secondItem="lM7-GN-RPg" secondAttribute="leading" constant="8" id="ACM-EC-PVC"/>
+                                                    <constraint firstAttribute="height" constant="55" id="USL-HP-ApL"/>
+                                                    <constraint firstItem="dK5-MB-6w4" firstAttribute="top" secondItem="vZ2-hS-8Ik" secondAttribute="bottom" constant="1.5" id="W0J-gG-Oqe"/>
+                                                    <constraint firstItem="dK5-MB-6w4" firstAttribute="leading" secondItem="lM7-GN-RPg" secondAttribute="leading" constant="8" id="heZ-al-Vq5"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.83522325750000004" green="0.83534115549999999" blue="0.83518618349999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="erw-i6-IFZ" firstAttribute="trailing" secondItem="vd2-00-BvZ" secondAttribute="trailing" id="0Ds-TJ-1Wm"/>
-                                            <constraint firstItem="uRt-y3-0Sr" firstAttribute="top" secondItem="kP4-qf-yWP" secondAttribute="bottom" constant="10" id="4h5-W8-p3J"/>
                                             <constraint firstItem="xsM-Fv-qcB" firstAttribute="trailing" secondItem="erw-i6-IFZ" secondAttribute="trailing" id="5Bg-ci-Ajk"/>
                                             <constraint firstItem="VxD-7z-w50" firstAttribute="leading" secondItem="Pzz-h6-jfd" secondAttribute="leading" id="7jP-6z-cBs"/>
                                             <constraint firstItem="erw-i6-IFZ" firstAttribute="leading" secondItem="vd2-00-BvZ" secondAttribute="leading" id="7lR-ML-w58"/>
                                             <constraint firstAttribute="trailing" secondItem="uRt-y3-0Sr" secondAttribute="trailing" id="9l5-IO-cTb"/>
                                             <constraint firstItem="npq-HY-BZ4" firstAttribute="top" secondItem="xsM-Fv-qcB" secondAttribute="bottom" constant="10" id="BBg-cV-v6x"/>
-                                            <constraint firstItem="kP4-qf-yWP" firstAttribute="top" secondItem="Z4h-08-8gt" secondAttribute="bottom" constant="20" id="Cor-My-jYA"/>
+                                            <constraint firstItem="QfE-nJ-a49" firstAttribute="leading" secondItem="kP4-qf-yWP" secondAttribute="trailing" constant="26.5" id="CDP-Cs-dBV"/>
                                             <constraint firstAttribute="trailing" secondItem="vd2-00-BvZ" secondAttribute="trailing" constant="20" id="EJf-Hy-pU8"/>
                                             <constraint firstItem="Z4h-08-8gt" firstAttribute="top" secondItem="rkT-eX-I3c" secondAttribute="bottom" constant="20" id="Ek5-9T-wM7"/>
-                                            <constraint firstItem="kP4-qf-yWP" firstAttribute="leading" secondItem="Z4h-08-8gt" secondAttribute="leading" id="G8T-W0-4qm"/>
+                                            <constraint firstAttribute="trailing" secondItem="lM7-GN-RPg" secondAttribute="trailing" constant="20" id="Gre-nZ-mch"/>
                                             <constraint firstItem="npq-HY-BZ4" firstAttribute="leading" secondItem="N5R-12-INX" secondAttribute="leading" constant="20" id="HHp-Ip-GR9"/>
                                             <constraint firstItem="erw-i6-IFZ" firstAttribute="top" secondItem="vd2-00-BvZ" secondAttribute="bottom" constant="8" id="Izc-eY-GUs"/>
                                             <constraint firstItem="VxD-7z-w50" firstAttribute="top" secondItem="Pzz-h6-jfd" secondAttribute="bottom" id="KjQ-dC-iKv"/>
@@ -1503,22 +1543,26 @@ Lorem Ipsum, USA</string>
                                             <constraint firstItem="rkT-eX-I3c" firstAttribute="leading" secondItem="N5R-12-INX" secondAttribute="leading" id="TEw-Do-Fce"/>
                                             <constraint firstAttribute="trailing" secondItem="rkT-eX-I3c" secondAttribute="trailing" id="UJp-Zb-dlk"/>
                                             <constraint firstItem="Pzz-h6-jfd" firstAttribute="top" secondItem="4c3-SA-va1" secondAttribute="bottom" id="UlG-WG-Nxl"/>
+                                            <constraint firstItem="uRt-y3-0Sr" firstAttribute="top" secondItem="lM7-GN-RPg" secondAttribute="bottom" constant="7.5" id="VNr-jV-NMH"/>
                                             <constraint firstAttribute="trailing" secondItem="QfE-nJ-a49" secondAttribute="trailing" constant="8" id="VO8-hn-Ofh"/>
                                             <constraint firstAttribute="bottom" secondItem="npq-HY-BZ4" secondAttribute="bottom" constant="10" id="VTb-Jg-Bnk"/>
-                                            <constraint firstItem="QfE-nJ-a49" firstAttribute="leading" secondItem="kP4-qf-yWP" secondAttribute="trailing" constant="8" id="ZpZ-6H-wg4"/>
+                                            <constraint firstItem="lM7-GN-RPg" firstAttribute="leading" secondItem="N5R-12-INX" secondAttribute="leading" constant="20" id="ZAA-GV-mtE"/>
                                             <constraint firstItem="xsM-Fv-qcB" firstAttribute="top" secondItem="erw-i6-IFZ" secondAttribute="bottom" constant="8" id="a5B-rI-exH"/>
+                                            <constraint firstItem="QfE-nJ-a49" firstAttribute="top" secondItem="VxD-7z-w50" secondAttribute="bottom" constant="4.5" id="b0l-Ov-K5s"/>
                                             <constraint firstItem="Pzz-h6-jfd" firstAttribute="leading" secondItem="4c3-SA-va1" secondAttribute="leading" id="cr6-bw-Fd6"/>
                                             <constraint firstItem="xsM-Fv-qcB" firstAttribute="leading" secondItem="erw-i6-IFZ" secondAttribute="leading" id="eUV-Xh-YdQ"/>
                                             <constraint firstItem="Pzz-h6-jfd" firstAttribute="trailing" secondItem="4c3-SA-va1" secondAttribute="trailing" id="for-UZ-1Gg"/>
                                             <constraint firstItem="4c3-SA-va1" firstAttribute="top" secondItem="Z4h-08-8gt" secondAttribute="top" id="gai-1x-5wh"/>
+                                            <constraint firstItem="kP4-qf-yWP" firstAttribute="leading" secondItem="Z4h-08-8gt" secondAttribute="trailing" constant="7" id="gm0-zP-9oP"/>
                                             <constraint firstItem="VxD-7z-w50" firstAttribute="trailing" secondItem="Pzz-h6-jfd" secondAttribute="trailing" id="jdx-zE-5wf"/>
                                             <constraint firstItem="rkT-eX-I3c" firstAttribute="top" secondItem="N5R-12-INX" secondAttribute="top" id="nfI-bf-wO8"/>
                                             <constraint firstItem="vd2-00-BvZ" firstAttribute="leading" secondItem="N5R-12-INX" secondAttribute="leading" constant="20" id="omm-aq-PuS"/>
+                                            <constraint firstItem="kP4-qf-yWP" firstAttribute="top" secondItem="VxD-7z-w50" secondAttribute="bottom" constant="4.5" id="rGM-ar-ynd"/>
                                             <constraint firstAttribute="trailing" secondItem="4c3-SA-va1" secondAttribute="trailing" constant="8" id="s9N-Sz-dfy"/>
                                             <constraint firstItem="uRt-y3-0Sr" firstAttribute="leading" secondItem="N5R-12-INX" secondAttribute="leading" id="ssW-Zu-vLN"/>
                                             <constraint firstAttribute="trailing" secondItem="npq-HY-BZ4" secondAttribute="trailing" constant="20" id="svb-YU-O7l"/>
                                             <constraint firstItem="Z4h-08-8gt" firstAttribute="leading" secondItem="N5R-12-INX" secondAttribute="leading" constant="20" id="ufM-oE-Yh2"/>
-                                            <constraint firstItem="QfE-nJ-a49" firstAttribute="centerY" secondItem="kP4-qf-yWP" secondAttribute="centerY" id="vCJ-iW-zU7"/>
+                                            <constraint firstItem="lM7-GN-RPg" firstAttribute="top" secondItem="Z4h-08-8gt" secondAttribute="bottom" constant="8" id="ut3-ba-6iP"/>
                                             <constraint firstItem="4c3-SA-va1" firstAttribute="leading" secondItem="Z4h-08-8gt" secondAttribute="trailing" constant="8" id="yyp-Rb-OKX"/>
                                         </constraints>
                                     </view>
@@ -1598,7 +1642,7 @@ Lorem Ipsum, USA</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check In Timer" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bT1-xY-bhL">
-                                        <rect key="frame" x="92.5" y="10.5" width="135.5" height="23.5"/>
+                                        <rect key="frame" x="93" y="10.5" width="135.5" height="23.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -1764,7 +1808,7 @@ Lorem Ipsum, USA</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="20mins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ba-g4-Wx5">
-                                                <rect key="frame" x="131.5" y="65" width="58.5" height="21"/>
+                                                <rect key="frame" x="131" y="65" width="58.5" height="21"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -3638,7 +3682,7 @@ Lorem Ipsum, USA</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sla-Xn-c6o">
-                                <rect key="frame" x="23" y="448.5" width="20" height="20"/>
+                                <rect key="frame" x="23.5" y="449" width="20" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="5iF-yr-Pg5"/>
                                     <constraint firstAttribute="width" constant="20" id="mng-aa-QDX"/>
@@ -3650,7 +3694,7 @@ Lorem Ipsum, USA</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I agree to terms &amp; conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbi-UV-vMr">
-                                <rect key="frame" x="51" y="448" width="219" height="20"/>
+                                <rect key="frame" x="51.5" y="448" width="219" height="20"/>
                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -3663,7 +3707,7 @@ Lorem Ipsum, USA</string>
                                 </connections>
                             </webView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="KaN-dY-nL6">
-                                <rect key="frame" x="15" y="79" width="290" height="354.5"/>
+                                <rect key="frame" x="15" y="79" width="290" height="355"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -4044,7 +4088,7 @@ Lorem Ipsum, USA </string>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Call" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sgk-xy-1BX">
-                                                                        <rect key="frame" x="81" y="48" width="20.5" height="14"/>
+                                                                        <rect key="frame" x="81.5" y="48" width="20.5" height="14"/>
                                                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="12"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -4059,7 +4103,7 @@ Lorem Ipsum, USA </string>
                                                                         <rect key="frame" x="71" y="8" width="40" height="35"/>
                                                                     </imageView>
                                                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2GK-FB-HaB" customClass="SetCorner" customModule="EIjebo" customModuleProvider="target">
-                                                                        <rect key="frame" x="198.5" y="18" width="97.5" height="39"/>
+                                                                        <rect key="frame" x="199" y="18" width="97" height="39"/>
                                                                         <color key="backgroundColor" red="0.97254901959999995" green="0.086274509799999996" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="2GK-FB-HaB" secondAttribute="height" multiplier="10:4" id="K1X-T3-b6U"/>
@@ -4345,7 +4389,7 @@ Lorem Ipsum, USA </string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GI4-fB-OfJ">
-                                        <rect key="frame" x="163.5" y="12" width="48" height="20"/>
+                                        <rect key="frame" x="164" y="12.5" width="48" height="20"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -4394,7 +4438,7 @@ Lorem Ipsum, USA </string>
                                 <rect key="frame" x="0.0" y="214" width="375" height="354"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0uD-bI-b66">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="381.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="380.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MvT-39-OPX" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="10" width="335" height="48"/>
@@ -4495,7 +4539,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vH6-9O-wrC" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="121.5" width="335" height="48.5"/>
+                                                <rect key="frame" x="20" y="121.5" width="335" height="48"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_call_red" translatesAutoresizingMaskIntoConstraints="NO" id="uz0-6b-PG2">
                                                         <rect key="frame" x="15" y="17" width="16" height="16"/>
@@ -4505,7 +4549,7 @@ Lorem Ipsum, USA </string>
                                                         </constraints>
                                                     </imageView>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4eu-gS-3FY">
-                                                        <rect key="frame" x="39" y="8" width="288" height="32.5"/>
+                                                        <rect key="frame" x="39" y="8" width="288" height="32"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="next"/>
@@ -4541,7 +4585,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fLl-VH-HpD" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="178" width="335" height="48.5"/>
+                                                <rect key="frame" x="20" y="177.5" width="335" height="48"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_location" translatesAutoresizingMaskIntoConstraints="NO" id="MoF-4y-Cnm">
                                                         <rect key="frame" x="15" y="17" width="16" height="16"/>
@@ -4551,7 +4595,7 @@ Lorem Ipsum, USA </string>
                                                         </constraints>
                                                     </imageView>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="unU-CV-fTD">
-                                                        <rect key="frame" x="39" y="8" width="288" height="32.5"/>
+                                                        <rect key="frame" x="39" y="8" width="288" height="32"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" returnKeyType="done"/>
@@ -4588,7 +4632,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dHF-dV-cHN" customClass="SetCornerView" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="234.5" width="335" height="48"/>
+                                                <rect key="frame" x="20" y="233.5" width="335" height="48"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7E-mg-d8v">
                                                         <rect key="frame" x="8" y="8" width="312" height="32"/>
@@ -4637,7 +4681,7 @@ Lorem Ipsum, USA </string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mur-5W-7iF" customClass="SetCornerButton" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="290.5" width="335" height="47.5"/>
+                                                <rect key="frame" x="20" y="289.5" width="335" height="47.5"/>
                                                 <color key="backgroundColor" red="0.9713711143" green="0.1430932879" blue="0.091485358769999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="mur-5W-7iF" secondAttribute="height" multiplier="28:4" id="GdQ-un-kMS"/>
@@ -4748,7 +4792,7 @@ Lorem Ipsum, USA </string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RtQ-BP-SuC">
-                                        <rect key="frame" x="118" y="12.5" width="139.5" height="20"/>
+                                        <rect key="frame" x="118" y="13" width="139.5" height="20"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -4883,7 +4927,7 @@ Lorem Ipsum, USA </string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMw-DQ-ioH">
-                                <rect key="frame" x="69" y="164" width="237.5" height="34"/>
+                                <rect key="frame" x="69.5" y="164" width="237.5" height="34"/>
                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -5507,12 +5551,12 @@ Lorem Ipsum, USA </string>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4X-PA-Iqa">
-                                        <rect key="frame" x="128" y="50.5" width="124" height="20"/>
+                                        <rect key="frame" x="128" y="51" width="124" height="20"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567896" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHt-4b-tnK">
-                                        <rect key="frame" x="128" y="78.5" width="124" height="17.5"/>
+                                        <rect key="frame" x="128" y="79" width="124" height="17.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="15"/>
                                         <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -5600,7 +5644,7 @@ Lorem Ipsum, USA </string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wB-pz-P7K">
-                                        <rect key="frame" x="109" y="12" width="157.5" height="20"/>
+                                        <rect key="frame" x="109" y="12.5" width="157.5" height="20"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -5871,7 +5915,7 @@ Lorem Ipsum, USA </string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4y-SY-xdg">
-                                        <rect key="frame" x="115.5" y="10.5" width="89" height="23.5"/>
+                                        <rect key="frame" x="116" y="10.5" width="89" height="23.5"/>
                                         <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -5954,7 +5998,7 @@ Lorem Ipsum, USA </string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="$20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUB-ZI-rRM">
-                                                                <rect key="frame" x="135" y="127.5" width="50.5" height="40"/>
+                                                                <rect key="frame" x="135.5" y="127.5" width="50.5" height="40"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="40" id="4Un-tX-fTr"/>
                                                                 </constraints>
@@ -6210,10 +6254,10 @@ Lorem Ipsum, USA </string>
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="et0-E4-d1Z">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="479"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="476.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6C-V7-NaO" customClass="SetCorner" customModule="EIjebo" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="340" width="280" height="40"/>
+                                                <rect key="frame" x="20" y="337.5" width="280" height="40"/>
                                                 <color key="backgroundColor" red="0.97254901959999995" green="0.086274509799999996" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="x6C-V7-NaO" secondAttribute="height" multiplier="28:4" id="nfD-Ro-oUf"/>
@@ -6272,18 +6316,18 @@ Lorem Ipsum, USA</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CgD-uv-xSt">
-                                                <rect key="frame" x="20" y="98" width="100" height="17"/>
+                                                <rect key="frame" x="20" y="98" width="100" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                 <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="High School" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqM-DR-a4K">
-                                                <rect key="frame" x="128" y="98" width="76.5" height="17"/>
+                                                <rect key="frame" x="128" y="98" width="76.5" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tFg-Sv-5r2">
-                                                <rect key="frame" x="0.0" y="225" width="320" height="100"/>
+                                                <rect key="frame" x="0.0" y="222.5" width="320" height="100"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="sMy-Xe-f1q"/>
@@ -6294,29 +6338,29 @@ Lorem Ipsum, USA</string>
                                                 </connections>
                                             </tableView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Availability" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="His-7Z-RDI">
-                                                <rect key="frame" x="20" y="123" width="100" height="17"/>
+                                                <rect key="frame" x="20" y="122.5" width="100" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                 <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="10:00am - 5:00pm" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rt-KF-fD5">
-                                                <rect key="frame" x="128" y="123" width="115.5" height="17"/>
+                                                <rect key="frame" x="128" y="122.5" width="115.5" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Booking Time" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ho-WV-2ay">
-                                                <rect key="frame" x="20" y="148" width="100" height="17"/>
+                                                <rect key="frame" x="20" y="147" width="100" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                 <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="02:00pm" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eI-fg-A4K">
-                                                <rect key="frame" x="128" y="148" width="55.5" height="17"/>
+                                                <rect key="frame" x="128" y="147" width="55.5" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Booking Date" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfQ-XK-iE2">
-                                                <rect key="frame" x="20" y="173" width="100" height="17"/>
+                                                <rect key="frame" x="20" y="171.5" width="100" height="16.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="Ev6-HK-Lc4"/>
                                                 </constraints>
@@ -6325,18 +6369,18 @@ Lorem Ipsum, USA</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Wednesday, 23rd June 2018" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQi-xL-Smf">
-                                                <rect key="frame" x="128" y="173" width="184" height="17"/>
+                                                <rect key="frame" x="128" y="171.5" width="184" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v0s-xv-sO0">
-                                                <rect key="frame" x="20" y="198" width="100" height="17"/>
+                                                <rect key="frame" x="20" y="196" width="100" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                 <color key="textColor" red="0.49015653129999998" green="0.49021822209999999" blue="0.49013555050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="1 min" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCF-6l-jCA">
-                                                <rect key="frame" x="128" y="198" width="35" height="17"/>
+                                                <rect key="frame" x="128" y="196" width="35" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="Arial-Rounded" family="Arial-Rounded" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>

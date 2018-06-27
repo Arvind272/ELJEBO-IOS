@@ -56,10 +56,20 @@ class LoginVC: UIViewController, UITextFieldDelegate {
           Proxy.shared.pushToNextVC(storyborad: StoryboardType.customerStoryboard, identifier: "OtpCodeVC", isAnimate: true, currentViewController: self)
 
         }else{
-           Proxy.shared.pushToNextVC(storyborad: StoryboardType.serviceProviderStoryboard, identifier: "OtpCodeVC", isAnimate: true, currentViewController: self)
-
-        }
+            if txtUserName.text!.isEmpty {
+                Proxy.shared.displayStatusCodeAlert(AlertValue.time)
+            }
+            else if txtPassword.text!.isEmpty {
+                Proxy.shared.displayStatusCodeAlert(AlertValue.time)
+            }else{
+                objLoginVM.userName = txtUserName.text!
+                objLoginVM.password = txtPassword.text!
+                
+                objLoginVM.loginApi {
+                    RootControllerProxy.shared.goWithDrawer(storyboard: StoryboardType.serviceProviderStoryboard, identifier: "ServicesHomeVC")
+                }
+            }
     }
-  
+}
     
 }
