@@ -44,26 +44,26 @@ class ServicesSignupVM: NSObject {
             "email":email!,
             "password":password,
             "username":userName!,
-            "User[zipcode]":zipCode!,
+            "zip_code":zipCode!,
             "gender":gender!,
-            "User[country]":country!,
-            "User[address]":address!,
-            "User[address_two]":address2!,
-            "User[city_state]":state!,
-            "User[city]":city!,
-            "User[education_level]":education!,
+            "country_id":country!,
+            "address":address!,
+            "address2":address2!,
+            "state_id":state!,
+            "city_id":city!,
+            "education":education!,
             "User[availability_time_from]":fromTime,
             "User[availability_time_to]":toTime,
-            "User[contact_no]":phnNo,
+            "mobile":phnNo,
             "UserCardDetail[card_holder_name]":cardHolderName,
             "UserCardDetail[card_number]":cardNo,
             "UserCardDetail[expiry_month]":expMonth,
             "UserCardDetail[expiry_year]":expYear,
             "UserCardDetail[cvv]":cardCvv,
-            "User[latitude]" : latitute!,
-            "User[longitude]":longitute!,
-            "security_question":qusetionsStr,
-            "sub_services":subCategory,
+            "latitude" : latitute!,
+            "longitude":longitute!,
+            "security_que_ans":qusetionsStr,
+            "sub_category":subCategory,
             "device_type":"1",
             "device_token":deviceTokken,
             
@@ -78,6 +78,10 @@ class ServicesSignupVM: NSObject {
             //Proxy.shared.displayStatusCodeAlert(SuccessAlertValue.itemAdded)
             if jsonResponse["status"] as! Int == 1 {
                 Proxy.shared.displayStatusCodeAlert("Registered Successfully")
+                if let auth = jsonResponse["id"] as? String {
+                    UserDefaults.standard.set(auth, forKey: "user_id")
+                    UserDefaults.standard.synchronize()
+                }
                 completion()
             } else {
                 if let error = jsonResponse["message"] as? String {

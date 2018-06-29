@@ -29,36 +29,36 @@ class SignUpVM: NSObject {
             print(error.description)
         }
         let param = [
-            "User[first_name]" :firstName!,
-            "User[last_name]" :lastName!,
-            "User[email]":email!,
-            "User[password]":password,
-            "User[username]":userName!,
-            "User[zipcode]":zipCode!,
-            "User[gender]":gender!,
-            "User[country]":country!,
-            "User[address]":address!,
-            "User[address_two]":address2!,
-            "User[city_state]":state!,
-            "User[city]":city!,
-            "User[education_level]":education!,
-            "User[contact_no]":phnNo!,
+            "firstname" :firstName!,
+            "lastname" :lastName!,
+            "email":email!,
+            "password":password,
+            "username":userName!,
+            "zip_code":zipCode!,
+            "gender":gender!,
+            "country_id":country!,
+            "address":address!,
+            "address2":address2!,
+            "state_id":state!,
+            "city_id":city!,
+            "education":education!,
+            "mobile":phnNo!,
             "UserCardDetail[type_id]":cardType!,
             "UserCardDetail[card_holder_name]":cardHolderName!,
             "UserCardDetail[card_number]":cardNo!,
             "UserCardDetail[expiry_month]":expMonth!,
             "UserCardDetail[expiry_year]":expYear!,
             "UserCardDetail[cvv]":cardCvv,
-            "security_question":qusetionsStr,
-            "User[latitude]" : latitute!,
-            "User[longitude]":longitute!
+            "security_que_ans":qusetionsStr,
+            "latitude" : latitute!,
+            "longitude":longitute!
             ] as [String:AnyObject]
         
         WebServiceProxy.shared.postData("\(Apis.KServerUrl)\(Apis.KCustomerSignup)", params: param, showIndicator: true, completion: { (JSON) in
             if JSON["status"] as! Int == 200 {
               Proxy.shared.displayStatusCodeAlert("Registered Successfully")
-                if let auth = JSON["auth_code"] as? String {
-                    UserDefaults.standard.set(auth, forKey: "auth_code")
+                if let auth = JSON["id"] as? String {
+                    UserDefaults.standard.set(auth, forKey: "user_id")
                     UserDefaults.standard.synchronize()
                 }
                 completion()

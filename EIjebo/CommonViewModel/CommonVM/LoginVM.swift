@@ -9,7 +9,7 @@
 import UIKit
 var objLoginVM = LoginVM()
 class LoginVM: NSObject {
-       var userName,password:String!
+       var userName,password,user_type:String!
     
     func loginApi(_ completion:@escaping() -> Void) {
         var deviceTokken =  ""
@@ -24,7 +24,7 @@ class LoginVM: NSObject {
             "username":userName!,
             "device_type":"1",
             "device_token":deviceTokken,
-            "user_type":"2",
+            "user_type":user_type,
             ] as [String:AnyObject]
         
         WebServiceProxy.shared.postData("http://103.15.67.74/eljebo/webservice/new/main/login", params: param, showIndicator: true, completion: { (JSON) in

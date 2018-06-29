@@ -53,18 +53,32 @@ class LoginVC: UIViewController, UITextFieldDelegate {
          let storyboard = self.storyboard
         if storyboard == StoryboardType.customerStoryboard{
            
-          Proxy.shared.pushToNextVC(storyborad: StoryboardType.customerStoryboard, identifier: "OtpCodeVC", isAnimate: true, currentViewController: self)
-
-        }else{
+        
             if txtUserName.text!.isEmpty {
-                Proxy.shared.displayStatusCodeAlert(AlertValue.time)
+                Proxy.shared.displayStatusCodeAlert(AlertValue.username)
             }
             else if txtPassword.text!.isEmpty {
-                Proxy.shared.displayStatusCodeAlert(AlertValue.time)
+                Proxy.shared.displayStatusCodeAlert(AlertValue.password)
             }else{
+                
                 objLoginVM.userName = txtUserName.text!
                 objLoginVM.password = txtPassword.text!
+                objLoginVM.user_type = "1"
+                objLoginVM.loginApi {
+                    RootControllerProxy.shared.goWithDrawer(storyboard: StoryboardType.customerStoryboard, identifier: "HomeVC")
+                }
+            }
+        }else{
+            if txtUserName.text!.isEmpty {
+                Proxy.shared.displayStatusCodeAlert(AlertValue.username)
+            }
+            else if txtPassword.text!.isEmpty {
+                Proxy.shared.displayStatusCodeAlert(AlertValue.password)
+            }else{
                 
+                objLoginVM.userName = txtUserName.text!
+                objLoginVM.password = txtPassword.text!
+                objLoginVM.user_type = "2"
                 objLoginVM.loginApi {
                     RootControllerProxy.shared.goWithDrawer(storyboard: StoryboardType.serviceProviderStoryboard, identifier: "ServicesHomeVC")
                 }

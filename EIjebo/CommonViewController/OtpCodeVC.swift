@@ -51,7 +51,13 @@ class OtpCodeVC: UIViewController,UITextFieldDelegate {
                 }
             }
             else{
-                RootControllerProxy.shared.goWithDrawer(storyboard: StoryboardType.customerStoryboard, identifier: "HomeVC")
+               objOtpVM.otp = self.txtCode.text
+               let user_id = UserDefaults.standard.value(forKey: "user_id") as! String
+               objOtpVM.userId = user_id
+                objOtpVM.otpVerifyApi {
+                      RootControllerProxy.shared.goWithDrawer(storyboard: StoryboardType.customerStoryboard, identifier: "HomeVC")
+                }
+              
             }
         }else{
             if  KAppDelegate.isForgot == true{

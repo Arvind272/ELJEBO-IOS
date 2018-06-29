@@ -7,9 +7,27 @@
 //
 
 import UIKit
-
+ var objOtpVM = OtpVM()
 class OtpVM: NSObject {
-
+    var otp,userId:String!
+    func otpVerifyApi(_ completion:@escaping() -> Void) {
+      
+        let param = [
+            "userId":userId!,
+            "otp":otp!,
+             ] as [String:AnyObject]
+        
+        WebServiceProxy.shared.postData("http://103.15.67.74/eljebo/webservice/new/main/verifyOtp", params: param, showIndicator: true, completion: { (JSON) in
+            if JSON["status"] as! Int == 1 {
+                Proxy.shared.displayStatusCodeAlert("Welcome in eljibo..")
+              
+                completion()
+                
+            } else {
+                Proxy.shared.displayStatusCodeAlert(JSON["message"] as? String ?? "Error")
+            }
+        })
+    }
 }
 extension OtpCodeVC {
 
