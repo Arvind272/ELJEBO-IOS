@@ -97,11 +97,15 @@ class ServicesSignupVM: NSObject {
 extension ServiceProviderSignUpVC {
     // MARK:- CollactionVIEW
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return objServicesSignupVM.imagesArray.count
+       
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = colVwCertificates.dequeueReusableCell(withReuseIdentifier: "CertificatesCVC", for: indexPath) as! CertificatesCVC
         cell.imgVwCertificate.image = objServicesSignupVM.imagesArray[indexPath.row]
+        cell.btnCross.tag = indexPath.row
+        cell.btnCross.addTarget(self, action: #selector(deleteImage(_:)), for: .touchUpInside)       cell.imgVwCertificate.image = objServicesSignupVM.imagesArray[indexPath.row]
+        cell.btnCross.tag = indexPath.row
+        cell.btnCross.addTarget(self, action: #selector(deleteImage(_:)), for: .touchUpInside)       cell.imgVwCertificate.image = objServicesSignupVM.imagesArray[indexPath.row]
         cell.btnCross.tag = indexPath.row
         cell.btnCross.addTarget(self, action: #selector(deleteImage(_:)), for: .touchUpInside)
         return cell

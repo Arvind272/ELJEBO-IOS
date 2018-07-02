@@ -40,7 +40,13 @@ class TrackerVC: UIViewController ,UITableViewDataSource,UITableViewDelegate, UI
         tblSservices.reloadData()
         tblVwHeightConstrt.constant = CGFloat(35*selectedServicesArray.count)
         tblSservices.layoutIfNeeded()
-        
+        viewTimerEnd.isHidden = true
+        btnTimerEnd.isHidden = true
+        lblExtraTimer.isHidden = true
+        self.tblSservices.register(UINib.init(nibName: "ServicesListTVC", bundle: nil), forCellReuseIdentifier:"ServicesListTVC")
+        tblSservices.reloadData()
+        tblVwHeightConstrt.constant = CGFloat(35*selectedServicesArray.count)
+        tblSservices.layoutIfNeeded()
         
     }
     

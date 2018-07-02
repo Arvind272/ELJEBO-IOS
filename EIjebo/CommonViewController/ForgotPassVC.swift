@@ -23,7 +23,8 @@ class ForgotPassVC: UIViewController, UITextFieldDelegate {
      // MARK: - LIFECYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let title = Proxy.shared.createAttributedString(fullString: "Don't have an account ? SIGN UP", fullStringColor: .black, subString: "SIGN UP", subStringColor: AppInfo.redColor)
+        btnSignUp.setAttributedTitle(title, for: .normal)
         // Do any additional setup after loading the view.
     }
 
@@ -40,9 +41,11 @@ class ForgotPassVC: UIViewController, UITextFieldDelegate {
         let storyboard = self.storyboard
         KAppDelegate.isForgot = true
         if storyboard == StoryboardType.customerStoryboard{
-            Proxy.shared.pushToNextVC(storyborad: StoryboardType.customerStoryboard, identifier: "OtpCodeVC", isAnimate: true, currentViewController: self)
+            let title = Proxy.shared.createAttributedString(fullString: "Don't have an account ? SIGN UP", fullStringColor: .black, subString: "SIGN UP", subStringColor: AppInfo.redColor)
+            btnSignUp.setAttributedTitle(title, for: .normal)
         }else{
-            Proxy.shared.pushToNextVC(storyborad: StoryboardType.serviceProviderStoryboard, identifier: "OtpCodeVC", isAnimate: true, currentViewController: self)
+            let title = Proxy.shared.createAttributedString(fullString: "Don't have an account ? SIGN UP", fullStringColor: .black, subString: "SIGN UP", subStringColor: AppInfo.redColor)
+            btnSignUp.setAttributedTitle(title, for: .normal)
         }
        
     }

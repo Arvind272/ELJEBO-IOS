@@ -26,7 +26,8 @@ class HomeVC: UIViewController,UITableViewDelegate,UITableViewDataSource, UIGest
         objServicesVM.servicesListApi{
             self.tblView.reloadData()
         }
-       
+        let title = Proxy.shared.createAttributedString(fullString: "Don't have an account ? SIGN UP", fullStringColor: .black, subString: "SIGN UP", subStringColor: AppInfo.redColor)
+        btnSignUp.setAttributedTitle(title, for: .normal)
         }
         
         override func didReceiveMemoryWarning() {
@@ -36,7 +37,8 @@ class HomeVC: UIViewController,UITableViewDelegate,UITableViewDataSource, UIGest
         
         // MARK: - IBACTIONS
     @IBAction func buttonSideMenu(_ sender: UIButton) {
-      
+        let title = Proxy.shared.createAttributedString(fullString: "Don't have an account ? SIGN UP", fullStringColor: .black, subString: "SIGN UP", subStringColor: AppInfo.redColor)
+        btnSignUp.setAttributedTitle(title, for: .normal)
         self.revealViewController().revealToggle(animated: true)
     }
     @IBAction func buttonSearchServices(_ sender: UIButton) {
