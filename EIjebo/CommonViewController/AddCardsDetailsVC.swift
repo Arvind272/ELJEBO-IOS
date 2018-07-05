@@ -45,19 +45,7 @@ class AddCardsDetailsVC: UIViewController , UITextFieldDelegate {
         else{
             
             
-            if storyboard == StoryboardType.customerStoryboard{
-                objSignupVM.cardHolderName = txtFldCardName.text!
-                objSignupVM.cardNo = txtFldCardNumber.text!
-                objSignupVM.cardCvv = txtFldCVV.text!
-                let fullExp =  txtFldMonthYear.text!
-                let fullExpArr = fullExp.components(separatedBy: "/")
-                objSignupVM.expMonth = fullExpArr[0]
-                objSignupVM.expYear = fullExpArr[1]
-                objSignupVM.signupApi {
-                    Proxy.shared.pushToNextVC(storyborad: StoryboardType.customerStoryboard, identifier:"TermsAndConditionsVC", isAnimate: true, currentViewController: self)
-                }
-              
-            }
+           
             else {
                 objServicesSignupVM.cardHolderName = txtFldCardName.text!
                 objServicesSignupVM.cardNo = txtFldCardNumber.text!

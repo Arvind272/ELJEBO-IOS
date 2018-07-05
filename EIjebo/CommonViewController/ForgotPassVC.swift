@@ -43,7 +43,11 @@ class ForgotPassVC: UIViewController, UITextFieldDelegate {
         if storyboard == StoryboardType.customerStoryboard{
             let title = Proxy.shared.createAttributedString(fullString: "Don't have an account ? SIGN UP", fullStringColor: .black, subString: "SIGN UP", subStringColor: AppInfo.redColor)
             btnSignUp.setAttributedTitle(title, for: .normal)
+            let title = Proxy.shared.createAttributedString(fullString: "Don't have an account ? SIGN UP", fullStringColor: .black, subString: "SIGN UP", subStringColor: AppInfo.redColor)
+            btnSignUp.setAttributedTitle(title, for: .normal)
         }else{
+            let title = Proxy.shared.createAttributedString(fullString: "Don't have an account ? SIGN UP", fullStringColor: .black, subString: "SIGN UP", subStringColor: AppInfo.redColor)
+            btnSignUp.setAttributedTitle(title, for: .normal)
             let title = Proxy.shared.createAttributedString(fullString: "Don't have an account ? SIGN UP", fullStringColor: .black, subString: "SIGN UP", subStringColor: AppInfo.redColor)
             btnSignUp.setAttributedTitle(title, for: .normal)
         }
