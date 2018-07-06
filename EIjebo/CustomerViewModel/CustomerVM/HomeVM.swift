@@ -48,7 +48,7 @@ extension HomeVC{
         if objServicesVM.servicesListArr.count != 0 {
             let secServices = objServicesVM.servicesListArr[selectedSection]
             let subCatDict  = secServices.subServicesArr[indexPath.row]
-            let value = subCatDict.title!
+            let value = subCatDict.id!
             if selectedServicesArray.contains(value) {
                 cell.btnSelect.isSelected = true
             }
@@ -67,7 +67,7 @@ extension HomeVC{
         
         let sec = objServicesVM.servicesListArr[selectedSection]
         let subCatDict = sec.subServicesArr[indexPath.row]
-        let value = subCatDict.title!
+        let value = subCatDict.id!
         if selectedServicesArray.contains(value) {
             selectedServicesArray.remove(value)
         }

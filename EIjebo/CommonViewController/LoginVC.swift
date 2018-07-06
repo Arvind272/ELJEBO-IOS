@@ -37,8 +37,6 @@ class LoginVC: UIViewController, UITextFieldDelegate {
             Proxy.shared.pushToNextVC(storyborad: StoryboardType.customerStoryboard, identifier:"ForgotPassVC", isAnimate: true, currentViewController: self)
         }else{
             Proxy.shared.pushToNextVC(storyborad: StoryboardType.serviceProviderStoryboard, identifier: "ForgotPassVC", isAnimate: true, currentViewController: self)
-            let title = Proxy.shared.createAttributedString(fullString: "Don't have an account ? SIGN UP", fullStringColor: .black, subString: "SIGN UP", subStringColor: AppInfo.redColor)
-            btnSignUp.setAttributedTitle(title, for: .normal)
         }
     }
     @IBAction func actionSignUp(_ sender: Any) {
@@ -84,36 +82,7 @@ class LoginVC: UIViewController, UITextFieldDelegate {
                 objLoginVM.loginApi {
                     RootControllerProxy.shared.goWithDrawer(storyboard: StoryboardType.serviceProviderStoryboard, identifier: "ServicesHomeVC")
                 }
-        
-            
-                if txtUserName.text!.isEmpty {
-                    Proxy.shared.displayStatusCodeAlert(AlertValue.username)
-                }
-                else if txtPassword.text!.isEmpty {
-                    Proxy.shared.displayStatusCodeAlert(AlertValue.password)
-                }else{
-                    
-                    objLoginVM.userName = txtUserName.text!
-                    objLoginVM.password = txtPassword.text!
-                    objLoginVM.user_type = "1"
-                    objLoginVM.loginApi {
-                        RootControllerProxy.shared.goWithDrawer(storyboard: StoryboardType.customerStoryboard, identifier: "HomeVC")
-                    }
-                }
-            }else{
-                if txtUserName.text!.isEmpty {
-                    Proxy.shared.displayStatusCodeAlert(AlertValue.username)
-                }
-                else if txtPassword.text!.isEmpty {
-                    Proxy.shared.displayStatusCodeAlert(AlertValue.password)
-                }else{
-                    
-                    objLoginVM.userName = txtUserName.text!
-                    objLoginVM.password = txtPassword.text!
-                    objLoginVM.user_type = "2"
-                    objLoginVM.loginApi {
-                        RootControllerProxy.shared.goWithDrawer(storyboard: StoryboardType.serviceProviderStoryboard, identifier: "ServicesHomeVC")
-                    }}
+            }
     }
 }
     

@@ -7,13 +7,14 @@
 //
 
 import UIKit
+import SDWebImage
  var objServicesProviderListVM = ServicesProviderListVM()
 class ServicesProviderListVM: NSObject {
 
     var listArr = [ServiceProviderListModel]()
     var service_id = String()
     var userId = String()
-    
+
     func serviceProviderListApi(_ completion:@escaping() -> Void) {
         
         var Tokken =  ""
@@ -53,7 +54,7 @@ class ServicesProviderListVM: NSObject {
 extension ServicesProviderListVC{
     // MARK : TABLEVIEW
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.objServicesProviderListVM.listArr.count
+        return objServicesProviderListVM.listArr.count
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -65,9 +66,9 @@ extension ServicesProviderListVC{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ServicesProviderTVC") as! ServicesProviderTVC
         
-        let dict = self.objServicesProviderListVM.listArr[indexPath.row]
+        let dict = objServicesProviderListVM.listArr[indexPath.row]
         cell.lblUserName?.text = dict.name
-        
+        cell.imgUser.sd_setImage(with: URL(string: dict.imageurl), placeholderImage: UIImage(named: "guest_home_img"))
         
         
         return cell

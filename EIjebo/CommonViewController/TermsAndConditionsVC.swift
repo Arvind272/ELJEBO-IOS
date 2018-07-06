@@ -15,40 +15,10 @@ class TermsAndConditionsVC: UIViewController ,UIWebViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         webVwTermAndCondtion.delegate = self
-        let htmlStr = "
-        if txtUserName.text!.isEmpty {
-            Proxy.shared.displayStatusCodeAlert(AlertValue.username)
-        }
-        else if txtPassword.text!.isEmpty {
-            Proxy.shared.displayStatusCodeAlert(AlertValue.password)
-        }else{
-            
-            objLoginVM.userName = txtUserName.text!
-            objLoginVM.password = txtPassword.text!
-            objLoginVM.user_type = "1"
-            objLoginVM.loginApi {
-                RootControllerProxy.shared.goWithDrawer(storyboard: StoryboardType.customerStoryboard, identifier: "HomeVC")
-            }
-        }
-    }else{
-    if txtUserName.text!.isEmpty {
-    Proxy.shared.displayStatusCodeAlert(AlertValue.username)
-    }
-    else if txtPassword.text!.isEmpty {
-    Proxy.shared.displayStatusCodeAlert(AlertValue.password)
-    }else{
-    
-    objLoginVM.userName = txtUserName.text!
-    objLoginVM.password = txtPassword.text!
-    objLoginVM.user_type = "2"
-    objLoginVM.loginApi {
-    RootControllerProxy.shared.goWithDrawer(storyboard: StoryboardType.serviceProviderStoryboard, identifier: "ServicesHomeVC")
-    }."
+        let htmlStr = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."
         
         webVwTermAndCondtion.loadHTMLString(htmlStr, baseURL: nil)
-        cell.imgVwCertificate.image = objServicesSignupVM.imagesArray[indexPath.row]
-        cell.btnCross.tag = indexPath.row
-        cell.btnCross.addTarget(self, action: #selector(deleteImage(_:)), for: .touchUpInside)
+        
     }
     
     //MARK:- Actions

@@ -90,8 +90,8 @@ enum AlertValue {
     static var sessionError = "Session Logged out"
     static var urlNotExist = "URL does not exists : 404"
     static var serverError = "Server error, Please try again.."
-   
- static var newPassword  =  "Please enter new password"
+    static var selectService = "Please select service ."
+    static var newPassword  =  "Please enter new password"
 }
 enum SuccessAlertValue {
     static var changePassword = "Password changes succssefully"

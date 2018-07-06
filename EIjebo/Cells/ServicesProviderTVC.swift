@@ -10,6 +10,8 @@ import UIKit
 
 class ServicesProviderTVC: UITableViewCell {
     @IBOutlet var lblUserName : UILabel!
+    
+    @IBOutlet weak var imgUser: SetCornerImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

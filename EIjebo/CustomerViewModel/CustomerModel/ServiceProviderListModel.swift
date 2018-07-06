@@ -10,8 +10,8 @@ import UIKit
 
 class ServiceProviderListModel: NSObject {
     
-    var name,id, userId : String!
-    var image: UIImage!
+    var name,id, userId,imageurl,address,time : String!
+   
     
     func serviceProviderList(_ dict:NSDictionary) {
         
@@ -28,5 +28,6 @@ class ServiceProviderListModel: NSObject {
         //stateId = dict["state_id"]! as? Int ?? 0
         //  typeID = dict["type_id"]! as? Int ?? 0
         name = dict["name"]! as? String ?? ""
+        imageurl = dict["profile_pic"]! as? String ?? ""
     }
 }

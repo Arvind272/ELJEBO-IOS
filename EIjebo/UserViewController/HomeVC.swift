@@ -26,8 +26,7 @@ class HomeVC: UIViewController,UITableViewDelegate,UITableViewDataSource, UIGest
         objServicesVM.servicesListApi{
             self.tblView.reloadData()
         }
-        let title = Proxy.shared.createAttributedString(fullString: "Don't have an account ? SIGN UP", fullStringColor: .black, subString: "SIGN UP", subStringColor: AppInfo.redColor)
-        btnSignUp.setAttributedTitle(title, for: .normal)
+       
         }
         
         override func didReceiveMemoryWarning() {
@@ -37,12 +36,18 @@ class HomeVC: UIViewController,UITableViewDelegate,UITableViewDataSource, UIGest
         
         // MARK: - IBACTIONS
     @IBAction func buttonSideMenu(_ sender: UIButton) {
-        let title = Proxy.shared.createAttributedString(fullString: "Don't have an account ? SIGN UP", fullStringColor: .black, subString: "SIGN UP", subStringColor: AppInfo.redColor)
-        btnSignUp.setAttributedTitle(title, for: .normal)
+      
         self.revealViewController().revealToggle(animated: true)
     }
     @IBAction func buttonSearchServices(_ sender: UIButton) {
-     Proxy.shared.pushToNextVC(storyborad:StoryboardType.customerStoryboard, identifier: "ServicesProviderListVC", isAnimate: true, currentViewController: self)
+        print( self.selectedServicesArray)
+        objServicesProviderListVM.service_id = selectedServicesArray.componentsJoined(by: ",")
+        if self.selectedServicesArray.count > 0 {
+            Proxy.shared.pushToNextVC(storyborad:StoryboardType.customerStoryboard, identifier: "ServicesProviderListVC", isAnimate: true, currentViewController: self)
+        }else{
+             Proxy.shared.displayStatusCodeAlert(AlertValue.selectService)
+        }
+     
     }
         
     @IBAction func buttonPressed(_ sender: UIButton) {

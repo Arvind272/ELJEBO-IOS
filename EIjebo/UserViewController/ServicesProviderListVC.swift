@@ -14,7 +14,7 @@ class ServicesProviderListVC: UIViewController ,UITableViewDataSource,UITableVie
     // MARK: - IBOUTLET
        @IBOutlet weak var tblView: UITableView!
     // MARK: - VARIABLE
-    var objServicesProviderListVM = ServicesProviderListVM()
+
     // MARK: - LIFECYCLE
   
     override func viewDidLoad() {
@@ -23,7 +23,6 @@ class ServicesProviderListVC: UIViewController ,UITableViewDataSource,UITableVie
         self.tblView.register(UINib.init(nibName: "ServicesProviderTVC", bundle: nil), forCellReuseIdentifier:"ServicesProviderTVC")
         let user_id = UserDefaults.standard.value(forKey: "user_id") as? String
         objServicesProviderListVM.userId = user_id!
-        objServicesProviderListVM.service_id = "10"
         objServicesProviderListVM.serviceProviderListApi{
                 self.tblView.reloadData()
         }

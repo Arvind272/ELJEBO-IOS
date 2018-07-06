@@ -19,9 +19,7 @@ class BookingPayVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
    var selectedServicesArray:[(String,AnyObject)] = [("Cleaners","$20" as AnyObject),("Baby Sitters","$30" as AnyObject),("Plumbers & Electrician","$40" as AnyObject)]
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tblServices.register(UINib.init(nibName: "ServicesListTVC", bundle: nil), forCellReuseIdentifier:"ServicesListTVC")
-        tblServices.reloadData()
-        tblVwHeightConstrt.constant = CGFloat(35*selectedServicesArray.count)
+      
         self.tblServices.register(UINib.init(nibName: "ServicesListTVC", bundle: nil), forCellReuseIdentifier:"ServicesListTVC")
         tblServices.reloadData()
         tblVwHeightConstrt.constant = CGFloat(35*selectedServicesArray.count)
@@ -36,7 +34,6 @@ class BookingPayVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     }
     @IBAction func actionBack(_ sender: Any) {
         Proxy.shared.popToBackVC(isAnimate: true, currentViewController: self)
-           Proxy.shared.pushToNextVC(storyborad: StoryboardType.customerStoryboard, identifier: "TrackerVC", isAnimate: true, currentViewController: self)
     }
    
 }
