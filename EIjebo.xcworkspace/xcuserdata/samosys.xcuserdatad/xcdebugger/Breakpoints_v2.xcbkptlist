@@ -9,22 +9,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "EIjebo/ServiceProviderViewModel/ServicesSignupVM.swift"
-            timestampString = "551971808.4341021"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "signupApi(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "EIjebo/ServicesProvider/ServicesHomeVC.swift"
             timestampString = "551797954.514328"
             startingColumnNumber = "9223372036854775807"
@@ -102,27 +86,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EIjebo/CustomerViewModel/CustomerVM/ServicesUserVM.swift"
-            timestampString = "552543692.565564"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EIjebo/CustomerViewModel/CustomerVM/HomeVM.swift"
-            timestampString = "552544928.666194"
+            timestampString = "552547563.960366"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
@@ -138,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EIjebo/UserViewController/HomeVC.swift"
-            timestampString = "552544928.666261"
+            timestampString = "552545646.817772"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
@@ -154,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EIjebo/CustomerViewModel/CustomerVM/ServicesProviderListVM.swift"
-            timestampString = "552544928.666316"
+            timestampString = "552548865.345448"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
@@ -170,13 +138,93 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EIjebo/CustomerViewModel/CustomerVM/ServicesProviderListVM.swift"
-            timestampString = "552544928.666627"
+            timestampString = "552548865.34556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
             endingLineNumber = "30"
             landmarkName = "serviceProviderListApi(_:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EIjebo/CustomerViewModel/CustomerVM/ServicesUserVM.swift"
+            timestampString = "552548865.345662"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "serviceProviderDetailsApi(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EIjebo/CustomerViewModel/CustomerVM/ServicesUserVM.swift"
+            timestampString = "552548865.345751"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "serviceProviderDetailsApi(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EIjebo/CustomerViewModel/CustomerVM/ServicesUserVM.swift"
+            timestampString = "552548865.345842"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "serviceProviderDetailsApi(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EIjebo.ServicesUserVM.serviceProviderDetailsApi(() -&gt; ()) -&gt; ()"
+                  moduleName = "EIjebo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samosys/Desktop/Proejct/Ejibo/eljibo-SouceCode%20-18%20june/EIjebo/CustomerViewModel/CustomerVM/ServicesUserVM.swift"
+                  timestampString = "552548661.265239"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1886">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__ObjC.NSDictionary) -&gt; () in EIjebo.ServicesUserVM.serviceProviderDetailsApi(() -&gt; ()) -&gt; ()"
+                  moduleName = "EIjebo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samosys/Desktop/Proejct/Ejibo/eljibo-SouceCode%20-18%20june/EIjebo/CustomerViewModel/CustomerVM/ServicesUserVM.swift"
+                  timestampString = "552548661.266699"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -74,6 +74,7 @@
 		696EDFFB20CF8ED6008CC8BE /* CheckListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696EDFF920CF8ED6008CC8BE /* CheckListTVC.xib */; };
 		696EDFFE20CF8EF9008CC8BE /* ServicesProviderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696EDFFC20CF8EF9008CC8BE /* ServicesProviderTVC.swift */; };
 		696EDFFF20CF8EF9008CC8BE /* ServicesProviderTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696EDFFD20CF8EF9008CC8BE /* ServicesProviderTVC.xib */; };
+		B00CD5B020EF2E840094EBEE /* ServiceUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CD5AF20EF2E840094EBEE /* ServiceUserModel.swift */; };
 		CE65B44220EE45AA00774382 /* ServiceProviderListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65B44120EE45AA00774382 /* ServiceProviderListModel.swift */; };
 		D70ACE2B20D7CD36008A16B7 /* BookingPayVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70ACE2A20D7CD36008A16B7 /* BookingPayVM.swift */; };
 		D70ACE2D20D7CD52008A16B7 /* BookingPayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70ACE2C20D7CD51008A16B7 /* BookingPayVC.swift */; };
@@ -178,6 +179,7 @@
 		696EDFFD20CF8EF9008CC8BE /* ServicesProviderTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServicesProviderTVC.xib; sourceTree = "<group>"; };
 		73438F6CDB012D763021CE8A /* Pods-EIjebo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EIjebo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EIjebo/Pods-EIjebo.release.xcconfig"; sourceTree = "<group>"; };
 		A49D5B704735F893409483DE /* Pods-EIjebo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EIjebo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EIjebo/Pods-EIjebo.debug.xcconfig"; sourceTree = "<group>"; };
+		B00CD5AF20EF2E840094EBEE /* ServiceUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceUserModel.swift; sourceTree = "<group>"; };
 		CE65B44120EE45AA00774382 /* ServiceProviderListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProviderListModel.swift; sourceTree = "<group>"; };
 		D70ACE2A20D7CD36008A16B7 /* BookingPayVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingPayVM.swift; sourceTree = "<group>"; };
 		D70ACE2C20D7CD51008A16B7 /* BookingPayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingPayVC.swift; sourceTree = "<group>"; };
@@ -480,6 +482,7 @@
 			isa = PBXGroup;
 			children = (
 				CE65B44120EE45AA00774382 /* ServiceProviderListModel.swift */,
+				B00CD5AF20EF2E840094EBEE /* ServiceUserModel.swift */,
 			);
 			path = CustomerModel;
 			sourceTree = "<group>";
@@ -742,6 +745,7 @@
 				D7FB192720D3CBDE00A0788B /* SignUpVM.swift in Sources */,
 				D7761BF620D2A410003D2D4E /* SelectMultipleImage.swift in Sources */,
 				6963441E20D12DA800F816AD /* AcceptModelView.swift in Sources */,
+				B00CD5B020EF2E840094EBEE /* ServiceUserModel.swift in Sources */,
 				D7FB193D20D3D31400A0788B /* PaymentVM.swift in Sources */,
 				D70ACE2D20D7CD52008A16B7 /* BookingPayVC.swift in Sources */,
 				6963441620D12BD100F816AD /* ServicesHomeVM.swift in Sources */,

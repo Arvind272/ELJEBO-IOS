@@ -75,6 +75,8 @@ extension ServicesProviderListVC{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+           let dict = objServicesProviderListVM.listArr[indexPath.row]
+        objServicesUserVM.service_provider_id = dict.id
         Proxy.shared.pushToNextVC(storyborad: StoryboardType.customerStoryboard, identifier: "ServicesUserVC", isAnimate: true, currentViewController: self)
     }
     

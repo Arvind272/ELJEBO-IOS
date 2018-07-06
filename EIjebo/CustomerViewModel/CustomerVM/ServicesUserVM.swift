@@ -7,9 +7,45 @@
 //
 
 import UIKit
-
+ var objServicesUserVM = ServicesUserVM()
 class ServicesUserVM: NSObject {
 
+    var serviceUserModelArr = [ServiceUserModel]()
+    var userId = String()
+    var service_provider_id = String()
+    func serviceProviderDetailsApi(_ completion:@escaping() -> Void) {
+        
+        var Tokken =  ""
+        if UserDefaults.standard.object(forKey: "token") == nil {
+            Tokken = "000000000000000000000000000000000000000000000000000000000000055"
+        } else {
+            Tokken = UserDefaults.standard.object(forKey: "token")! as! String
+        }
+        
+        let param = [
+            "user_id":userId,
+            "token":Tokken,
+            "service_provider_id":service_provider_id
+            ] as [String:AnyObject]
+        
+        WebServiceProxy.shared.postData("http://103.15.67.74/eljebo/webservice/new/main/getServiceProviderProfile", params: param, showIndicator: true, completion: { (JSON) in
+            
+            if JSON["status"] as! Int == 1 {
+                if let dictItem = JSON["data"] as? NSDictionary
+                {
+                    let objAddress = ServiceUserModel()
+                    objAddress.ServiceUserModelList(dictItem)
+                    self.serviceUserModelArr.append(objAddress)
+                    
+                }
+                
+                completion()
+            } else {
+                Proxy.shared.displayStatusCodeAlert(JSON["message"] as? String ?? "Error")
+            }
+        })
+    }
+    
 }
 
 extension ServicesUserVC{
